@@ -1,0 +1,188 @@
+[
+ {
+  "title": "OpenAI shares its models' perplexity, or how well they predict data, and urges pacing limits based on such metrics, citing a possible 2027 avalanche of AI gains",
+  "link": "https://openai.com/index/perplexity-and-intelligence",
+  "source": "OpenAI",
+  "summary": "- Difficulty of comparison across labs. … - Detachment from actionable evaluations. … - Not accounting for advances outside of pretraining.",
+  "cats": [
+   "AI",
+   "반도체·아키텍처"
+  ],
+  "score": 7.44,
+  "outlets": 2,
+  "interview": false,
+  "techmeme": true,
+  "hn": {
+   "points": 305,
+   "comments": 200
+  },
+  "published": "11/23 03:25",
+  "others": []
+ },
+ {
+  "title": "A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang's return should depend on probes of its China chip sales and presses Nvidia for answers",
+  "link": "https://www.nytimes.com/2026/11/22/business/scott-bessent-jensen-huang-nvidia.html",
+  "source": "New York Times",
+  "summary": "The treasury secretary said on CBS that it was too soon to say if Jensen Huang should return as the company's chief executive.",
+  "cats": [
+   "빅테크 리더",
+   "반도체·아키텍처"
+  ],
+  "score": 6.77,
+  "outlets": 1,
+  "interview": true,
+  "techmeme": true,
+  "hn": null,
+  "published": "11/23 04:50",
+  "others": []
+ },
+ {
+  "title": "Tesla rolls out FSD v15, featuring a photorealistic rendering of car surroundings; Elon Musk says it is real-time AI video generation without using game engines",
+  "link": "https://gizmodo.com/its-like-gta-musk-touts-video-game-like-update-to-tesla-fsd-2000843584",
+  "source": "Gizmodo",
+  "summary": "FSD v15 was released to some vehicles on Saturday. Its visualization system may be the most remarkable part.",
+  "cats": [
+   "빅테크 리더",
+   "AI"
+  ],
+  "score": 6.22,
+  "outlets": 1,
+  "interview": true,
+  "techmeme": true,
+  "hn": null,
+  "published": "11/22 15:40",
+  "others": []
+ },
+ {
+  "title": "Sources: amid leak fears, Anthropic limited some IPO banks to four-person teams, used a view-logging file platform, and sought six-month bans on advising rivals",
+  "link": "https://www.reuters.com/world/like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-2026-11-22/",
+  "source": "Reuters",
+  "summary": "For the second time this year, Wall Street bankers and lawyers took home a massive paycheck from a record-setting initial public offering.",
+  "cats": [
+   "AI"
+  ],
+  "score": 5.16,
+  "outlets": 1,
+  "interview": false,
+  "techmeme": true,
+  "hn": null,
+  "published": "11/23 02:15",
+  "others": []
+ },
+ {
+  "title": "최태원, 한일 '빅텐트' 출범 이어 AI 인재 공동 육성 제안",
+  "link": "https://www.thelec.kr/news/articleView.html?idxno=65742",
+  "source": "디일렉",
+  "summary": "최태원 SK그룹 회장이 한일 양국이 인공지능(AI) 인재를 공동 육성하자고 제안했다. 지난 6월 한일 협력 플랫폼 '빅텐트'를 제안하고 최근 플랫폼을 출범시킨 데 이어 양국의 협력을 다시 강조했다. 22일 SK그룹은 최 회장이 지난 21일 일본 도쿄대에서 열린 '도쿄포럼 2026'에서 한일 기업과 대학이 AI 인재 육성 프로그램을 공동 운영하는 방안을 제시했다고 밝혔다. 청년의 취업 기회를 넓히고 사회 문제…",
+  "cats": [
+   "빅테크 리더",
+   "AI"
+  ],
+  "score": 5.13,
+  "outlets": 2,
+  "interview": true,
+  "techmeme": false,
+  "hn": null,
+  "published": "11/22 13:31",
+  "others": [
+   {
+    "source": "ZDNet Korea",
+    "link": "https://zdnet.co.kr/view/?no=20261122131948"
+   }
+  ]
+ },
+ {
+  "title": "Jony Ive, ex-OpenAI product designer Joey Flynn, and others on Silicon Valley's obsession with \"taste\" as a moat against AI slop and whether AI can learn it",
+  "link": "https://www.nytimes.com/2026/11/20/magazine/ai-slop-taste-aesthetic-silicon-valley.html?unlocked_article_code=1.SFE.1a6T.-kpbFF_tJYZx&smid=url-share",
+  "source": "New York Times",
+  "summary": "To move through A.I.-era San Francisco as a relatively normal person is to confront the sheer volume of bewildering concepts that tech has lately thrust upon us.",
+  "cats": [
+   "AI"
+  ],
+  "score": 5.07,
+  "outlets": 1,
+  "interview": false,
+  "techmeme": true,
+  "hn": null,
+  "published": "11/23 00:00",
+  "others": []
+ },
+ {
+  "title": "머스크, AI5를 Optimus에 배정하고 Tesla 차량은 AI4 사용 유지",
+  "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRjdVNF9WNjIydGpuaHpnUTNCWWZyeGRMZWlSTHJzbGx3Tkx3cndneXdrWC1JcU9jRzMxVE93b093RzljQy1tZndTdXVmQnNOeDkxbUx5MVpySFJfTFF4cHd2U2FEUjAxUG9PNUFjS1hvSWM2WUdCTHQ4d2ppZ29sZThvVklsQzQ?oc=5",
+  "source": "Unite.AI",
+  "summary": "",
+  "cats": [
+   "빅테크 리더",
+   "로보틱스"
+  ],
+  "score": 4.91,
+  "outlets": 4,
+  "interview": true,
+  "techmeme": false,
+  "hn": null,
+  "published": "11/23 03:23",
+  "others": [
+   {
+    "source": "Electric Vehicles",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkdIRkR5VEtMMHJBZE1lanRfWjlsaGRrM1dncnA2eXE5bEFoQ0p6eFNOeGJWQ09ZNlpicmVWNC1LMG1oZ3QwTG5tRl8wck9fNkNuRXlTWWZ0RHR0NzBHTUtMOEs1R1NyY09QSnZwY1JNVWV6c2otekQyVFBqR05kT3ZfREI2YXJ0SEVycV9veGhUQVZXZXJQZHRVSDJtRUQt?oc=5"
+   },
+   {
+    "source": "Tesla Accessories",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZnB0NDZKTVJ6ZFJGVnBqcUFaaXFjZy15SDNCNUdvUktVV3VpX1J3NUYtUVNXbmFTbmJlampPMkloS2l4cVk0bmlrV0RVMF8yUWZUZm1DSGlTOHd1bklyRG9VdFFWdW82YVBsZW8tcXpSeElBY3JDeTlBVmtCcGZYZFgtdF9PZzJMbW42Q0ZuV2prNnZEdmxkTFlZRGY?oc=5"
+   },
+   {
+    "source": "Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ncE5jcmJ0b0xQVW5GSW5jeXEzOHBvVWY2M2RoZUJMTnAta25tQUo0ak5fVEktcl9pT3NrdnVfdlBsNE9KU2dHdDcyQzVPd1hZTGZ2NkZEZDhoYWMzcVhKa3YyMGtYUlZ1WUZza1BIVXh2Nms?oc=5"
+   }
+  ]
+ },
+ {
+  "title": "Experts say AI has made planning cyberattacks on industrial equipment faster by helping attackers read manuals and research past accidents more quickly",
+  "link": "https://www.ft.com/content/3cf882c6-0be6-43f5-b01e-b6f765686c8b?accessToken=zwAAAaH84u1pkc88-ILGC-ZD9dOwHrb3ZWhsiw.MEQCIEewq-yMEhWLLFytskbl4UfRofl-P5tnaU_ItSGndPYsAiB5E9iR8KtH8A9y5DsKiZxw46YWH_09vwzWKRqKB451VA&sharetype=gift&token=78da349b-c4b7-48c6-8dfa-5cf8d65ca0f1",
+  "source": "Financial Times",
+  "summary": "The freezer war is just a start. The year is 2027. You wake up one morning to find you cannot use email or send instant messages.",
+  "cats": [
+   "AI"
+  ],
+  "score": 4.9,
+  "outlets": 1,
+  "interview": false,
+  "techmeme": true,
+  "hn": null,
+  "published": "11/22 20:01",
+  "others": []
+ },
+ {
+  "title": "Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China",
+  "link": "https://www.ft.com/content/f3ad8a81-3890-4a8a-8853-ff0a94b08ba9",
+  "source": "Financial Times",
+  "summary": "Chinese executive in romantic relationship with former Nvidia CEO Jensen Huang had connections to the lucrative trade moving chips to China",
+  "cats": [
+   "반도체·아키텍처"
+  ],
+  "score": 4.23,
+  "outlets": 1,
+  "interview": false,
+  "techmeme": true,
+  "hn": null,
+  "published": "11/22 03:55",
+  "others": []
+ },
+ {
+  "title": "TechCrunch Mobility: A/B testing robots vs. humans",
+  "link": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
+  "source": "TechCrunch",
+  "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it.",
+  "cats": [
+   "로보틱스"
+  ],
+  "score": 3.16,
+  "outlets": 1,
+  "interview": false,
+  "techmeme": false,
+  "hn": null,
+  "published": "11/23 02:06",
+  "others": []
+ }
+]

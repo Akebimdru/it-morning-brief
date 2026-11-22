@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IT 모닝 브리핑</title>
+<style>
+  :root {
+    --bg: #f6f5f1; --paper: #ffffff; --ink: #16161a; --muted: #6b6a66; --line: #e4e2dc;
+    --accent: #c2410c;
+    --c-ai: #6d28d9; --c-net: #0369a1; --c-chip: #b45309; --c-lead: #be123c; --c-robot: #047857;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111113; --paper: #1a1a1d; --ink: #ecebe8; --muted: #9a9893; --line: #2b2b30;
+      --accent: #fb923c;
+      --c-ai: #a78bfa; --c-net: #38bdf8; --c-chip: #fbbf24; --c-lead: #fb7185; --c-robot: #34d399;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+    line-height: 1.55; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 40px 16px 64px; }
+  header { border-bottom: 2px solid var(--ink); padding-bottom: 18px; margin-bottom: 8px; }
+  .kicker { font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+  h1 { font-size: clamp(28px, 6vw, 40px); line-height: 1.15; margin: 6px 0 4px; letter-spacing: -.02em; }
+  .sub { color: var(--muted); font-size: 14px; display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: center; }
+  .sub select { font: inherit; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 2px 6px; }
+  .filters { display: flex; flex-wrap: wrap; gap: 6px; margin: 18px 0 6px; }
+  .filters button {
+    font: inherit; font-size: 13px; cursor: pointer; border-radius: 999px; padding: 4px 12px;
+    border: 1px solid var(--line); background: var(--paper); color: var(--muted);
+  }
+  .filters button.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  ol { list-style: none; margin: 0; padding: 0; }
+  li.story { display: grid; grid-template-columns: 44px 1fr; gap: 4px 12px; padding: 22px 0; border-bottom: 1px solid var(--line); }
+  .rank { font-size: 28px; font-weight: 800; color: var(--muted); line-height: 1.1; font-variant-numeric: tabular-nums; }
+  li.story:nth-child(-n+3) .rank { color: var(--accent); }
+  .cats { display: flex; gap: 6px; margin-bottom: 4px; flex-wrap: wrap; }
+  .cat { font-size: 12px; font-weight: 700; color: var(--c); border: 1px solid currentColor; border-radius: 4px; padding: 0 6px; }
+  .story h2 { font-size: 18px; line-height: 1.4; margin: 0 0 6px; letter-spacing: -.01em; }
+  .story h2 a { color: inherit; text-decoration: none; }
+  .story h2 a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .summary { margin: 0 0 8px; color: var(--ink); opacity: .82; font-size: 15px; }
+  .meta { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 2px 12px; }
+  .meta b { color: var(--ink); font-weight: 600; }
+  .badge { font-weight: 700; color: var(--accent); }
+  .others { font-size: 13px; margin-top: 6px; color: var(--muted); }
+  .others a { color: var(--muted); }
+  .others a:hover { color: var(--ink); }
+  footer { margin-top: 28px; font-size: 12px; color: var(--muted); line-height: 1.7; }
+  .empty { padding: 40px 0; color: var(--muted); }
+  @media (max-width: 480px) {
+    .wrap { padding-top: 24px; }
+    li.story { grid-template-columns: 30px 1fr; }
+    .rank { font-size: 22px; }
+    .story h2 { font-size: 17px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">IT Morning Brief</div>
+    <h1 id="date"></h1>
+    <div class="sub">
+      <span id="gen"></span>
+      <label>지난 브리핑 <select id="archive"></select></label>
+    </div>
+  </header>
+  <div class="filters" id="filters"></div>
+  <ol id="list"></ol>
+  <footer>
+    순위는 여러 매체의 동시 보도, Techmeme 선정 여부, Hacker News 점수, Google News 관련 기사 수, 빅테크 총수 인터뷰 여부, 최신성을 합산한 점수입니다.
+    소스: Techmeme · Hacker News · The Verge · TechCrunch · Ars Technica · IEEE Spectrum · The Register · Tom's Hardware · SemiAnalysis · ServeTheHome · The Next Platform · Light Reading · The Robot Report · 전자신문 · 디일렉 · ZDNet Korea · Google News
+  </footer>
+</div>
+<script>
+const DATA = /*__DATA__*/null;
+const CAT_COLOR = { "AI": "--c-ai", "통신·전송": "--c-net", "반도체·아키텍처": "--c-chip", "빅테크 리더": "--c-lead", "로보틱스": "--c-robot" };
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const safeUrl = u => /^https?:\/\//i.test(u) ? u : "#";
+
+function render(filter) {
+  const list = document.getElementById("list");
+  const rows = DATA.stories.map((s, i) => ({ s, i })).filter(({ s }) => !filter || s.cats.includes(filter));
+  if (!rows.length) { list.innerHTML = '<li class="empty">이 분야의 기사가 없습니다.</li>'; return; }
+  list.innerHTML = rows.map(({ s, i }) => `
+    <li class="story">
+      <div class="rank">${i + 1}</div>
+      <div>
+        <div class="cats">${s.cats.map(c => `<span class="cat" style="--c: var(${CAT_COLOR[c] || "--muted"})">${esc(c)}</span>`).join("")}</div>
+        <h2><a href="${esc(safeUrl(s.link))}" target="_blank" rel="noopener">${esc(s.title)}</a></h2>
+        ${s.summary ? `<p class="summary">${esc(s.summary)}</p>` : ""}
+        <div class="meta">
+          <span><b>${esc(s.source)}</b> · ${esc(s.published)}</span>
+          ${s.outlets > 1 ? `<span>${s.outlets}개 매체 보도</span>` : ""}
+          ${s.techmeme ? `<span class="badge">Techmeme 톱뉴스</span>` : ""}
+          ${s.interview ? `<span class="badge">리더 발언</span>` : ""}
+          ${s.hn ? `<span>HN ▲${s.hn.points} · 댓글 ${s.hn.comments}</span>` : ""}
+        </div>
+        ${s.others.length ? `<div class="others">다른 보도: ${s.others.map(o => `<a href="${esc(safeUrl(o.link))}" target="_blank" rel="noopener">${esc(o.source)}</a>`).join(" · ")}</div>` : ""}
+      </div>
+    </li>`).join("");
+}
+
+(function init() {
+  const inArchive = location.pathname.replace(/\\/g, "/").includes("/archive/");
+  document.getElementById("date").textContent = `${DATA.date.replace(/-/g, ". ")}. (${DATA.weekday})`;
+  document.getElementById("gen").textContent = `${DATA.generated} 생성 · ${DATA.stories.length}건`;
+
+  const sel = document.getElementById("archive");
+  sel.innerHTML = DATA.archive.map(d => `<option value="${d}" ${d === DATA.date ? "selected" : ""}>${d}</option>`).join("");
+  sel.onchange = () => { location.href = (inArchive ? "" : "archive/") + sel.value + ".html"; };
+
+  const cats = ["전체", ...Object.keys(CAT_COLOR).filter(c => DATA.stories.some(s => s.cats.includes(c)))];
+  const f = document.getElementById("filters");
+  f.innerHTML = cats.map((c, i) => `<button class="${i ? "" : "on"}" data-c="${i ? esc(c) : ""}">${esc(c)}</button>`).join("");
+  f.onclick = e => {
+    const b = e.target.closest("button"); if (!b) return;
+    f.querySelectorAll("button").forEach(x => x.classList.toggle("on", x === b));
+    render(b.dataset.c);
+  };
+  render("");
+})();
+</script>
+</body>
+</html>
