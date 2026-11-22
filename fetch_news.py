@@ -560,7 +560,7 @@ def select(clusters: list[list[Item]], end: datetime) -> tuple[list[dict], dict[
                 break
         return out
 
-    tabs = {"전체": top(lambda d: True)}
+    tabs = {"전체": top(lambda d: True), "논문": top(lambda d: d["paper"])}
     for cat in CATEGORIES:
         tabs[cat] = top(lambda d, c=cat: c in d["cats"][:2])
     stories: list[dict] = []
@@ -616,6 +616,101 @@ def present(d: dict) -> dict:
     }
 
 
+# ---------------------------------------------------------------- 한글 요약
+SUMMARY_MODEL = "claude-opus-5-5"
+SUMMARY_PROMPT = """아래는 오늘의 IT 뉴스·논문 목록입니다(JSON). 각 항목마다 한국어로 1~2문장(최대 120자) 요약을 써 주세요.
+- 주어진 제목·출처·발췌만 근거로 쓰고, 없는 사실을 지어내지 마세요.
+- 핵심이 무엇이고 왜 중요한지가 드러나게, 뉴스 브리핑 문체(~했다, ~이다)로 씁니다.
+- 회사·제품·모델 이름은 원문 표기를 유지해도 됩니다.
+- 모든 id에 대해 하나씩 답하세요.
+
+"""
+SUMMARY_SCHEMA = {
+    "type": "object",
+    "properties": {"items": {"type": "array", "items": {
+        "type": "object",
+        "properties": {"id": {"type": "integer"}, "summary": {"type": "string"}},
+        "required": ["id", "summary"], "additionalProperties": False}}},
+    "required": ["items"], "additionalProperties": False,
+}
+
+
+def fetch_meta_description(url: str) -> str:
+    """발췌가 없는 기사는 원문 페이지의 og:description 을 가져온다."""
+    if "news.google.com" in url:
+        return ""
+    raw = fetch(url, timeout=12)
+    if not raw:
+        return ""
+    head = raw[:200_000].decode("utf-8", "ignore")
+    m = (re.search(r'<meta[^>]+(?:property|name)=["\'](?:og:description|description)["\'][^>]+content=["\']([^"\']+)', head, re.I)
+         or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\'](?:og:description|description)', head, re.I))
+    return clip(strip_html(m.group(1)), 300) if m else ""
+
+
+def summarize_with_claude(rows: list[dict]) -> dict[int, str]:
+    import anthropic  # GitHub Actions 에서만 설치되어 있어도 되도록 지연 import
+
+    client = anthropic.Anthropic()
+    response = client.beta.messages.create(
+        model=SUMMARY_MODEL,
+        max_tokens=16000,
+        output_config={"effort": "low", "format": {"type": "json_schema", "schema": SUMMARY_SCHEMA}},
+        betas=["server-side-fallback-2026-07-01"],
+        fallbacks="default",
+        messages=[{"role": "user", "content": SUMMARY_PROMPT + json.dumps(rows, ensure_ascii=False)}],
+    )
+    if response.stop_reason == "refusal":
+        raise RuntimeError("요약 요청이 거절되었습니다")
+    text = "".join(b.text for b in response.content if b.type == "text")
+    return {int(x["id"]): x["summary"].strip() for x in json.loads(text)["items"]}
+
+
+def translate_fallback(text: str) -> str:
+    """API 키가 없을 때: 발췌를 무료 번역(비공식 Google 번역 엔드포인트)으로 한글화."""
+    if not text or re.search(r"[가-힣]", text):
+        return text
+    url = ("https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=ko&dt=t&q="
+           + urllib.parse.quote(text[:600]))
+    raw = fetch(url, timeout=15)
+    if not raw:
+        return ""
+    try:
+        return "".join(seg[0] for seg in json.loads(raw)[0] if seg and seg[0])
+    except (ValueError, TypeError, IndexError):
+        return ""
+
+
+def first_sentences(text: str, n: int = 2, limit: int = 140) -> str:
+    parts = re.split(r"(?<=[.!?다])\s+", text.strip())
+    return clip(" ".join(parts[:n]), limit)
+
+
+def add_korean_summaries(stories: list[dict]) -> None:
+    import os
+
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        missing = [s for s in stories if not s["summary"]]
+        for s, desc in zip(missing, ex.map(lambda s: fetch_meta_description(s["link"]), missing)):
+            s["summary"] = desc
+    rows = [{"id": i, "title": s["title"], "source": s["source"], "kind": s["kind"], "snippet": s["summary"]}
+            for i, s in enumerate(stories)]
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        try:
+            got = summarize_with_claude(rows)
+            for i, s in enumerate(stories):
+                s["ko"] = got.get(i, "")
+            print(f"한글 요약: Claude로 {sum(1 for s in stories if s['ko'])}/{len(stories)}건")
+            return
+        except Exception as e:  # noqa: BLE001  요약 실패가 브리핑 전체를 막지 않도록
+            print(f"  ! Claude 요약 실패, 번역으로 대체: {e}", file=sys.stderr)
+    with ThreadPoolExecutor(max_workers=6) as ex:
+        texts = list(ex.map(lambda s: translate_fallback(first_sentences(s["summary"] or s["title"], 2, 400)), stories))
+    for s, t in zip(stories, texts):
+        s["ko"] = first_sentences(t) if t else ""
+    print(f"한글 요약: 번역으로 {sum(1 for s in stories if s['ko'])}/{len(stories)}건")
+
+
 def render(payload: dict) -> str:
     tpl = (ROOT / "template.html").read_text(encoding="utf-8")
     blob = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
@@ -649,6 +744,7 @@ def main() -> None:
             print(f"{r:>3}. [{s['score']:>5}] {tag} {s['title'][:80]} ({s['source']}, {s['outlets']}곳)")
     if args.dry:
         return
+    add_korean_summaries(stories)
 
     now = datetime.now(KST)
     date = e_k.strftime("%Y-%m-%d")
