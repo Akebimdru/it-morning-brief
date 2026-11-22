@@ -617,7 +617,7 @@ def present(d: dict) -> dict:
 
 
 # ---------------------------------------------------------------- 한글 요약
-SUMMARY_MODEL = "claude-opus-5-5"
+SUMMARY_MODEL = "claude-haiku-5-5"   # 1~2줄 요약에는 충분하고 1년 내내 써도 몇 달러 수준
 SUMMARY_PROMPT = """아래는 오늘의 IT 뉴스·논문 목록입니다(JSON). 각 항목마다 한국어로 1~2문장(최대 120자) 요약을 써 주세요.
 - 주어진 제목·출처·발췌만 근거로 쓰고, 없는 사실을 지어내지 마세요.
 - 핵심이 무엇이고 왜 중요한지가 드러나게, 뉴스 브리핑 문체(~했다, ~이다)로 씁니다.
@@ -652,12 +652,10 @@ def summarize_with_claude(rows: list[dict]) -> dict[int, str]:
     import anthropic  # GitHub Actions 에서만 설치되어 있어도 되도록 지연 import
 
     client = anthropic.Anthropic()
-    response = client.beta.messages.create(
+    response = client.messages.create(
         model=SUMMARY_MODEL,
         max_tokens=16000,
         output_config={"effort": "low", "format": {"type": "json_schema", "schema": SUMMARY_SCHEMA}},
-        betas=["server-side-fallback-2026-07-01"],
-        fallbacks="default",
         messages=[{"role": "user", "content": SUMMARY_PROMPT + json.dumps(rows, ensure_ascii=False)}],
     )
     if response.stop_reason == "refusal":
