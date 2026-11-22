@@ -21,7 +21,7 @@
    "hf": null,
    "published": "11/22 05:10",
    "others": [],
-   "ko": "연구원들은 광범위한 AI 서비스 네트워크를 통해 전송된 요청에 200만 개의 디지털 트립와이어를 심었습니다."
+   "ko": "연구진이 OpenRouter, Vercel 등 AI 라우터 요청에 카나리 자격증명을 심은 결과, ZDR 정책에도 개인정보 보호가 자주 깨지고 키가 탈취된 것으로 나타났다."
   },
   {
    "title": "Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China",
@@ -44,7 +44,7 @@
    "hf": null,
    "published": "11/22 03:55",
    "others": [],
-   "ko": "전 Nvidia CEO Jensen Huang과 낭만적인 관계를 맺고 있는 중국 임원은 칩을 중국으로 옮기는 수익성 있는 무역과 관련이 있었습니다."
+   "ko": "조사에 따르면 앨리스 황은 게임사, 프린스 그룹 연루 인물, 수백 개 페이퍼컴퍼니와 연결돼 있었으며, 이 네트워크는 엔비디아 칩을 중국으로 옮기는 데 쓰였다."
   },
   {
    "title": "Rhodium: China's biggest tech companies are set to double capex to $139B in 2026 with AI lab revenue under 8% of it, a gap that may matter more than chip curbs",
@@ -68,7 +68,33 @@
    "hf": null,
    "published": "11/22 00:10",
    "others": [],
-   "ko": "로듐: 중국 최대 기술 기업은 2026년에 두 배의 자본 지출을 1,390억 달러로 늘릴 예정이며, AI 연구실 매출은 그 중 8% 미만일 것입니다. 이는 칩 억제보다"
+   "ko": "Rhodium 분석에 따르면 중국 대형 기술기업들의 2026년 설비투자가 1390억 달러로 두 배 증가할 전망이며, AI 연구소 매출은 그중 8% 미만이다."
+  },
+  {
+   "title": "Inkling-2-Mini in 5.4 GB Memory",
+   "link": "https://github.com/ShinMegamiBoson/lookatmyquant",
+   "source": "github.com",
+   "summary": "A quantization compiler that delivers 12× lower KL than Q4_K_M at the same file size - ShinMegamiBoson/lookatmyquant",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "반도체·아키텍처"
+   ],
+   "score": 4.37,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": {
+    "points": 563,
+    "comments": 135
+   },
+   "hf": null,
+   "published": "11/22 03:02",
+   "others": [],
+   "ko": "양자화 컴파일러 lookatmyquant는 같은 파일 크기에서 Q4_K_M 대비 KL 값을 12배 낮춘다고 소개됐다. Inkling-2-Mini를 5.4GB 메모리에 올리는 사례도 함께 공개됐다."
   },
   {
    "title": "An interview with Google DeepMind in-house philosopher Henry Shevlin on being hired to work on machine consciousness, human-AI relationships, and AGI readiness",
@@ -91,33 +117,7 @@
    "hf": null,
    "published": "11/21 20:30",
    "others": [],
-   "ko": "기계 의식, 인간-AI ​​관계 및 AGI 준비 작업을 위해 고용된 Google DeepMind 사내 철학자 Henry Shevlin과의 인터뷰"
-  },
-  {
-   "title": "Inkling-2-Mini in 5.4 GB Memory",
-   "link": "https://github.com/ShinMegamiBoson/lookatmyquant",
-   "source": "github.com",
-   "summary": "A quantization compiler that delivers 12× lower KL than Q4_K_M at the same file size - ShinMegamiBoson/lookatmyquant",
-   "kind": "news",
-   "venue": "",
-   "authors": "",
-   "accepted": "",
-   "org": "",
-   "cats": [
-    "반도체·아키텍처"
-   ],
-   "score": 4.36,
-   "outlets": 1,
-   "interview": false,
-   "techmeme": false,
-   "hn": {
-    "points": 560,
-    "comments": 135
-   },
-   "hf": null,
-   "published": "11/22 03:02",
-   "others": [],
-   "ko": "동일한 파일 크기에서 Q4_K_M보다 12배 더 낮은 KL을 제공하는 양자화 컴파일러 - ShinMegamiBoson/lookatmy퀀트"
+   "ko": "구글 딥마인드의 사내 철학자 헨리 셰블린이 기계 의식, 인간과 AI의 관계, AGI 대비에 관해 인터뷰했다. 그는 기계 의식 연구를 위해 채용된 것으로 소개됐다."
   },
   {
    "title": "How quantum computers built from laser-trapped atoms may correct qubit errors more easily than supercooled chips, speeding the race to a usable machine",
@@ -140,7 +140,7 @@
    "hf": null,
    "published": "11/21 16:30",
    "others": [],
-   "ko": "레이저에 갇힌 원자로 제작된 양자 컴퓨터가 과냉각 칩보다 큐비트 오류를 ​​더 쉽게 수정하여 사용 가능한 기계를 향한 경쟁을 가속화할 수 있는 방법"
+   "ko": "레이저로 포획한 원자 기반 양자컴퓨터가 초전도 칩보다 큐비트 오류를 더 쉽게 정정할 수 있다는 내용이다. 실용 기계 개발 경쟁에 영향을 줄 수 있다고 전해졌다."
   },
   {
    "title": "NYU's Tristan Buckmaster and Anthropic's Levent Alpöge publish an AI-aided proof of Navier-Stokes blowup, saying it closes a loophole in OpenAI's solution",
@@ -163,7 +163,7 @@
    "hf": null,
    "published": "11/21 15:30",
    "others": [],
-   "ko": "OpenAI에 의해 발견된 지 두 달 후, N.Y.U. Tristan Buckmaster 교수와 Anthropic 직원 Levent Alpöge가 Navier-Stokes 폭발에 대한 새로운 AI 지원 증거를 가지고 돌아왔습니다."
+   "ko": "NYU의 튀스탕 버크스매스와 앤스로픽의 레번트 알푀게가 나비에-스토크스 방정식 해의 폭발을 AI 도움으로 증명했다고 발표했다. 이는 OpenAI 해법의 허점을 메운다고 주장한다."
   },
   {
    "title": "Industry insiders say new US export rules affect a broader range of chips, including SoCs used in consumer electronics, extending beyond advanced AI chips",
@@ -187,7 +187,7 @@
    "hf": null,
    "published": "11/21 15:00",
    "others": [],
-   "ko": "타이페이 -- 목요일에 도입된 더욱 엄격한 미국 수출 통제는 당초 수출 통제보다 글로벌 반도체 공급망에 훨씬 더 광범위한 영향을 미치고 있습니다."
+   "ko": "미국의 새 수출 규제가 고급 AI 칩뿐 아니라 가전용 SoC 등 더 넓은 반도체에 영향을 미치고 있다고 업계 관계자들이 전했다. 공급망 파장이 예상보다 크다는 평가다."
   },
   {
    "title": "Tesla FSD v15 to go wide release with the 2026 Holiday Update and mind-bending reality renders in December, says Musk",
@@ -220,7 +220,7 @@
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQN09QQzNNNXlwSDNiWXdLYTFRXzV1ZUJzYnBzb2lIRWtNc2lYLV92Q0NxLVBxRnBBMHBqS3J1RGRUaUplNVlnakRfai1xNFhrOGpIX1N5XzVHbVNmVFFDcUhsZVNsS3JfZUNiSnpFbktsYjRkVngzWGlLWjMweUdadFdiWGtZTUpvOFdQME50SjExbTRJTXc?oc=5"
     }
    ],
-   "ko": "Tesla FSD v15는 2026년 홀리데이 업데이트와 12월 놀라운 현실 렌더링을 통해 폭넓게 출시될 예정이라고 Musk는 말합니다."
+   "ko": "머스크는 테슬라 FSD v15가 2026년 홀리데이 업데이트와 함께 12월에 일반 배포될 것이라고 밝혔다."
   },
   {
    "title": "Ubisoft launches Motherbrain, a subsidiary focused on developing “smart NPCs with memory and AI game masters that manage large-scale systemic worlds”",
@@ -244,7 +244,7 @@
    "hf": null,
    "published": "11/21 14:15",
    "others": [],
-   "ko": "Studio는 현재 \"대규모 시스템 세계를 관리하는 메모리 및 AI 게임 마스터를 갖춘 스마트 NPC\"를 개발하고 있습니다."
+   "ko": "유비소프트가 기억력을 가진 스마트 NPC와 대규모 시스템 월드를 관리하는 AI 게임 마스터 개발을 맡을 자회사 Motherbrain을 출범했다."
   },
   {
    "title": "Oracle says it has secured funding for its infrastructure contract with OpenAI and “any further private discussions with vendors are just additional options”",
@@ -267,7 +267,7 @@
    "hf": null,
    "published": "11/21 09:25",
    "others": [],
-   "ko": "Oracle은 OpenAI와의 계약을 이행하는 데 필요한 모든 자금을 확보했습니다. 이번 달 초 최종 자본 조달을 통해 우리는 이 투자 주기에 대해 전액 자금을 지원받은 최초의 하이퍼스케일러가 되었습니다."
+   "ko": "오라클은 OpenAI와의 인프라 계약에 필요한 자금을 모두 확보했다고 밝혔다. 자사가 이 투자 주기에서 완전 자금 확보된 첫 하이퍼스케일러라고 주장했다."
   },
   {
    "title": "Nasdaq 100 fell 5.6% on Friday, taking its loss for the week to 10.4%, its worst run in more than six years, amid fears of a slowdown in the AI investment boom",
@@ -290,7 +290,7 @@
    "hf": null,
    "published": "11/21 08:50",
    "others": [],
-   "ko": "나스닥 100 지수는 AI 투자 붐 둔화에 대한 우려 속에 금요일 5.6% 하락해 이번 주 손실률이 10.4%로 6년여 만에 최악의 기록을 세웠다."
+   "ko": "나스닥 100 지수가 금요일 5.6% 하락해 주간 손실률이 10.4%에 이르렀으며, 이는 6년 넘게 최악의 흐름이다. AI 투자 붐 둔화 우려가 원인으로 지목됐다."
   },
   {
    "title": "Cursor tells lawmakers it is considering phasing out Chinese open-weight AI models due to “geopolitical risk”; Cursor's Composer 2 was built on Kimi K2.5",
@@ -313,7 +313,7 @@
    "hf": null,
    "published": "11/21 08:00",
    "others": [],
-   "ko": "CNBC가 검토한 하우스 보고서에 따르면 SpaceX의 Cursor는 지정학적 위험에 대해 중국에서 개발한 개방형 AI 모델을 단계적으로 폐지하는 것을 고려하고 있습니다."
+   "ko": "커서는 '지정학적 위험'을 이유로 중국 오픈웨이트 AI 모델 단계적 중단을 검토 중이라고 의회에 전했다. 커서의 Composer 2는 Kimi K2.5 기반으로 만들어졌다."
   },
   {
    "title": "Pandex – Official European Law for AI Agents, over MCP",
@@ -339,7 +339,7 @@
    "hf": null,
    "published": "11/22 05:47",
    "others": [],
-   "ko": "검색 및 AI용으로 구축된 하나의 API 및 MCP 서버에 EU, 유럽 7개국 및 유럽 인권 재판소의 입법 및 최고 법원 결정을 게시하는 기관이 포함되어 있습니다."
+   "ko": "Pandex는 EU와 7개 유럽 국가, 유럽인권재판소의 법령과 최고법원 판결을 AI 에이전트가 검색할 수 있도록 API와 MCP 서버로 제공한다."
   },
   {
    "title": "Hardware hacker builds open-source portable 3.5-inch floppy Wi-Fi NAS",
@@ -362,7 +362,7 @@
    "hf": null,
    "published": "11/21 20:00",
    "others": [],
-   "ko": "하드웨어 해커 BigCrimping(Crimp)은 네트워크를 통해 3.5인치 플로피 디스크를 쉽게 읽고 복사할 수 있는 전용 휴대용 Wi-Fi NAS를 만들었습니다. 빈티지 하드웨어의 르네상스는 일부 초기 디지털 카메라까지 확장되었습니다."
+   "ko": "하드웨어 해커 Crimp가 3.5인치 플로피 디스크를 네트워크로 읽고 복사하는 오픈소스 휴대용 Wi-Fi NAS를 만들었다."
   },
   {
    "title": "EGL3 Subsea Cable Project Secures Marine Licence For Scottish Waters",
@@ -385,7 +385,7 @@
    "hf": null,
    "published": "11/22 06:59",
    "others": [],
-   "ko": "EGL3 해저 케이블 프로젝트, 스코틀랜드 해역에 대한 해양 라이센스 확보"
+   "ko": "EGL3 해저 케이블 프로젝트가 스코틀랜드 해역의 해양 허가를 확보했다고 전해졌다."
   },
   {
    "title": "Greece Proposes EU Spectrum Union for 6G Auctions",
@@ -408,7 +408,7 @@
    "hf": null,
    "published": "11/21 23:38",
    "others": [],
-   "ko": "그리스, 6G 경매를 위해 EU 스펙트럼 연합 제안"
+   "ko": "그리스가 6G 주파수 경매를 위한 EU 공동 스펙트럼 연합을 제안했다고 전해졌다."
   },
   {
    "title": "Greece’s 6G Proposal Enters EU Budget Negotiations",
@@ -431,7 +431,7 @@
    "hf": null,
    "published": "11/21 22:10",
    "others": [],
-   "ko": "그리스의 6G 제안, EU 예산 협상 개시"
+   "ko": "그리스의 6G 제안이 EU 예산 협상 단계에 들어갔다는 보도다."
   },
   {
    "title": "Nvidia Sells Over Half Its Nokia Stake, Retains AI-RAN Partnership as 6G Push Continues",
@@ -455,7 +455,7 @@
    "hf": null,
    "published": "11/21 19:55",
    "others": [],
-   "ko": "Nvidia는 Nokia 지분의 절반 이상을 매각하고 6G 추진이 계속됨에 따라 AI-RAN 파트너십을 유지합니다."
+   "ko": "엔비디아가 노키아 지분의 절반 이상을 매각하면서도 AI-RAN 파트너십은 유지하며 6G 추진을 이어간다고 전해졌다."
   },
   {
    "title": "China launches 6G development programme across eight regions",
@@ -478,7 +478,7 @@
    "hf": null,
    "published": "11/21 17:42",
    "others": [],
-   "ko": "중국, 8개 지역에 걸쳐 6G 개발 프로그램 개시"
+   "ko": "중국이 8개 지역에 걸쳐 6G 개발 프로그램을 시작했다는 소식이다."
   },
   {
    "title": "U.S. Optical Transceivers Market Forecast to Expand at 11.11%",
@@ -501,7 +501,7 @@
    "hf": null,
    "published": "11/21 15:40",
    "others": [],
-   "ko": "미국 광트랜시버 시장 전망은 11.11%로 확장될 전망"
+   "ko": "미국 광트랜시버 시장이 연 11.11% 성장할 것이라는 시장 전망 자료가 나왔다."
   },
   {
    "title": "SK Broadband to Build Hybrid QKD and Post-Quantum Test Network Linking South Korea and Singapore on SJC2 Subsea Cable",
@@ -524,7 +524,7 @@
    "hf": null,
    "published": "11/21 15:06",
    "others": [],
-   "ko": "SK브로드밴드, SJC2 해저케이블에 한국-싱가포르 연결 하이브리드 QKD 및 사후 양자 테스트 네트워크 구축"
+   "ko": "SK브로드밴드가 SJC2 해저 케이블을 이용해 한국과 싱가포르를 잇는 하이브리드 QKD 및 양자내성 암호 시험망을 구축한다고 발표했다."
   },
   {
    "title": "Morgan Stanley: Starlink Robotics Revenue 36% by 2040",
@@ -548,7 +548,7 @@
    "hf": null,
    "published": "11/21 13:14",
    "others": [],
-   "ko": "Morgan Stanley: 2040년까지 Starlink Robotics 수익 36% 증가"
+   "ko": "모건스탠리는 스타링크 로보틱스 매출이 2040년까지 전체의 36%에 이를 것으로 전망했다."
   },
   {
    "title": "China Has Built More Than 26,000 Industrial 5G Networks as 6G Testing Advances",
@@ -571,7 +571,7 @@
    "hf": null,
    "published": "11/21 12:33",
    "others": [],
-   "ko": "중국은 6G 테스트 발전으로 26,000개 이상의 산업용 5G 네트워크를 구축했습니다."
+   "ko": "중국이 산업용 5G 네트워크를 2만6천 개 넘게 구축했으며 6G 시험도 진행 중이라는 보도다."
   },
   {
    "title": "A tale of two Nvidias",
@@ -594,7 +594,7 @@
    "hf": null,
    "published": "11/22 06:07",
    "others": [],
-   "ko": "우리는 Nvidia에 대해 매우 다른 두 가지 사진을 얻었습니다. 회사의 최신 수익 보고서와 Jensen Huang의 복귀를 큰 소리로 요구하는 기술 경영진의 사진입니다."
+   "ko": "엔비디아의 최근 실적 보고서와 젠슨 황의 복귀를 요구하는 기술 경영진들의 목소리가 엇갈린 그림을 보여준다고 짚었다."
   },
   {
    "title": "Act fast to score Intel's Core i7-14700K for its lowest price ever at $249.99",
@@ -617,7 +617,7 @@
    "hf": null,
    "published": "11/22 05:00",
    "others": [],
-   "ko": "Intel의 인기 있는 Core i7-14700K는 여전히 게임용 최고의 CPU 중 하나로 남아 있으며 현재 역대 최저 가격인 249.99달러에 판매되고 있습니다. Raptor Lake Refresh CPU는 최신 제품임에도 불구하고 CPU 벤치마크…"
+   "ko": "인텔 Core i7-14700K가 249.99달러로 역대 최저가에 판매 중이라는 할인 소식이다. 게이밍용으로 여전히 상위권 CPU로 평가된다."
   },
   {
    "title": "Trump wants to ban US companies from building overseas data centers as bans slow development",
@@ -640,7 +640,7 @@
    "hf": null,
    "published": "11/22 01:29",
    "others": [],
-   "ko": "미국에서 AI 개발을 추진해 온 도널드 트럼프 대통령은 미국 기업이 다른 나라에 데이터센터를 짓는 것을 막거나 ‘엄청난 세금’을 부과하고 싶다고 말했다."
+   "ko": "트럼프 대통령이 미국 기업의 해외 데이터센터 건설을 막거나 높은 세금을 물리겠다고 밝혔다. 해외 건설이 지연되는 현실을 반영한 조치 구상이다."
   },
   {
    "title": "Rapidus reportedly struggles to produce working SRAM on its 2nm node, putting 2027 mass production at risk",
@@ -663,7 +663,7 @@
    "hf": null,
    "published": "11/22 00:30",
    "others": [],
-   "ko": "Rapidus는 EUV 리소그래피에 의존하는 2nm급 노드를 사용하여 기능하는 SRAM 셀을 개발하는 데 어려움을 겪고 있는 것으로 알려졌습니다. 새로운 보고서에 따르면 Rapidus는 SRA 작동을 입증하는 중요한 이정표를 놓쳤습니다..."
+   "ko": "라피더스가 2nm 공정에서 정상 작동하는 SRAM 셀 구현에 어려움을 겪는 것으로 알려졌다. 이로 인해 2027년 양산 일정이 위험에 처했다는 보도다."
   },
   {
    "title": "Jensen Huang's fall is bad news for Silicon Valley's accelerationists",
@@ -689,7 +689,7 @@
    "hf": null,
    "published": "11/22 02:59",
    "others": [],
-   "ko": "Jensen Huang의 몰락은 실리콘 밸리의 가속주의자들에게 나쁜 소식입니다"
+   "ko": "젠슨 황의 퇴진은 실리콘밸리 가속주의자들에게 불리한 소식이라는 분석이다."
   },
   {
    "title": "젤렌스키, Starshield 제한에 관해 거짓말했다는 머스크의 비난에 응답",
@@ -712,7 +712,7 @@
    "hf": null,
    "published": "11/21 12:10",
    "others": [],
-   "ko": "젤렌스키, Starshield 제한에 관해 거짓말했다는 머스크의 비난에 응답"
+   "ko": "젤렌스키가 스타쉴드 사용 제한과 관련해 거짓말을 했다는 머스크의 비난에 응답했다고 전해졌다."
   },
   {
    "title": "`네 엄마가 널 낙태했어야`…젠슨 황 사임하자 쏟아진 `폭언` 폭로",
@@ -745,7 +745,7 @@
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOS3J2aTZMZFNLMk1pSDR4empTODNOUVludzFXSFVQWFFqa2phYU9Lb3EzMHZETTlINGdrOE5ORS11eUxsc3JER3ZYYm9KYS1jQ2JqWEtIUF81S3Vsdmd3RzNBYkdtVWV5R3RSZFlrM29wQkRmVElyVklnMDVqcy1HVA?oc=5"
     }
    ],
-   "ko": "`네 엄마가 널 낙태했어야`…젠슨 황 사임하자 쏟아진 `폭언` 폭로"
+   "ko": "젠슨 황 사임 이후 엔비디아 내부에서 직원에게 폭언을 했다는 폭로가 쏟아졌다는 보도다."
   },
   {
    "title": "WATCH: Tesla Optimus Humanoid Robot Walks Beside Elon Musk Carrying His Two Suitcases Off Private Jet; Scene Reminds Users Of A Sci-Fi Movie",
@@ -769,7 +769,7 @@
    "hf": null,
    "published": "11/22 04:58",
    "others": [],
-   "ko": "시청: Tesla Optimus 휴머노이드 로봇이 개인 제트기에서 두 개의 여행 가방을 들고 Elon Musk 옆을 걷고 있습니다. 공상과학 영화를 연상시키는 장면"
+   "ko": "테슬라 옵티머스 휴머노이드 로봇이 머스크와 함께 전용기에서 여행가방을 들고 내리는 영상이 공개돼 화제가 됐다."
   },
   {
    "title": "How Jensen Huang Made Humiliation Routine at Nvidia",
@@ -793,7 +793,7 @@
    "hf": null,
    "published": "11/22 00:55",
    "others": [],
-   "ko": "Jensen Huang이 Nvidia에서 굴욕적인 루틴을 만든 방법"
+   "ko": "뉴욕타임스는 젠슨 황이 엔비디아에서 모욕을 일상화했는지 조명했다. 사내 문화 논란을 다룬 기사다."
   },
   {
    "title": "트럼프 “젠슨 황에 또 기회를”…“낙태” 또 사내 폭언 논란도",
@@ -816,7 +816,7 @@
    "hf": null,
    "published": "11/21 17:03",
    "others": [],
-   "ko": "트럼프 “젠슨 황에 또 기회를”…“낙태” 또 사내 폭언 논란도"
+   "ko": "트럼프 대통령이 젠슨 황에게 기회를 다시 준다고 말했다는 소식과 함께 사내 폭언 논란이 다시 불거졌다."
   },
   {
    "title": "권력의 어두운 면: 젠슨 황 - 엔비디아는 한때 직원들이 모욕과 위협을 당하던 곳이었을까?",
@@ -840,7 +840,7 @@
    "hf": null,
    "published": "11/21 14:31",
    "others": [],
-   "ko": "권력의 어두운 면: 젠슨 황 - 엔비디아는 한때 직원들이 모욕과 위협을 당하던 곳이었을까?"
+   "ko": "엔비디아가 과거 직원들이 모욕과 위협을 당하던 곳이었는지 권력의 어두운 면을 짚으며 젠슨 황을 조명했다."
   },
   {
    "title": "젠슨 황 퇴진으로 드러난 실리콘밸리의 제왕적 경영과 일그러진 AI 자본주의",
@@ -864,7 +864,7 @@
    "hf": null,
    "published": "11/21 13:26",
    "others": [],
-   "ko": "젠슨 황 퇴진으로 드러난 실리콘밸리의 제왕적 경영과 일그러진 AI 자본주의"
+   "ko": "젠슨 황 퇴진을 계기로 실리콘밸리의 제왕적 경영과 AI 자본주의의 문제점이 드러났다는 분석이다."
   },
   {
    "title": "젠슨 황 '임시 후임' 크레스는 누구…엔비디아 성장 함께한 '재무 전문가' > 시애틀 뉴스/핫이슈",
@@ -888,7 +888,7 @@
    "hf": null,
    "published": "11/21 12:35",
    "others": [],
-   "ko": "젠슨 황 '임시 후임' 크레스는 누구…엔비디아 성장 함께한 '재무 전문가' > 시애틀 뉴스/핫이슈"
+   "ko": "젠슨 황의 임시 후임으로 지목된 크레스는 엔비디아 성장에 함께한 재무 전문가로 소개됐다."
   },
   {
    "title": "New semi-autonomous 911 drones will reach nearly all of Knoxville in 90 seconds or less",
@@ -911,7 +911,7 @@
    "hf": null,
    "published": "11/21 23:00",
    "others": [],
-   "ko": "녹스빌 경찰국은 도시 주변에 위치한 12개 부두에서 반자율 드론을 발사할 예정인 \"최초 대응 드론(Drone as First Responder)\" 프로그램(DFR)을 발표했습니다. 부두를 통해 드론을 파견할 수 있습니다…"
+   "ko": "녹스빌 경찰이 12곳의 독에서 반자율 드론을 출동시키는 '드론 퍼스트 리스폰더' 프로그램을 발표했다. 대부분 지역에 90초 이내 도달이 목표다."
   },
   {
    "title": "Defense firm’s EMP ‘Dragon’ weapon fries 51 jam-proof drones simultaneously",
@@ -934,7 +934,7 @@
    "hf": null,
    "published": "11/21 22:54",
    "others": [],
-   "ko": "드론은 현대 전장에서 주요 위협이 되었으며, 이것이 바로 터키 방산업체인 Aselsan이 이에 대응할 수 있는 강력한 솔루션을 개발한 이유입니다. 회사는 Ejderha를 보여주는 YouTube 동영상을 공유했는데, 이는 \"Dra…"
+   "ko": "터키 방산업체 아셀산의 EMP 무기 Ejderha가 방해 방지 드론 51대를 동시에 무력화했다는 영상이 공개됐다."
   },
   {
    "title": "Musk Says Cybercab “Covers About 90%” of Passenger Miles. Tesla’s Next Robotaxi Is a Wheel-Less Model Y",
@@ -957,7 +957,7 @@
    "hf": null,
    "published": "11/22 04:52",
    "others": [],
-   "ko": "머스크는 Cybercab이 승객 마일리지의 \"약 90%를 커버\"한다고 말합니다. Tesla의 다음 Robotaxi는 바퀴가 없는 모델 Y입니다."
+   "ko": "머스크는 사이버캡이 승객 마일의 약 90%를 담당한다고 주장했다. 테슬라는 바퀴 없는 모델Y 기반의 차세대 로보택시를 준비 중이다."
   },
   {
    "title": "Medtronic’s Hugo surgical robot ready for bigger operation",
@@ -980,7 +980,7 @@
    "hf": null,
    "published": "11/21 09:55",
    "others": [],
-   "ko": "전 세계적으로 Hugo 수술 시스템은 메드트로닉 회계연도 말까지 누적 시술 건수 50,000건을 넘어설 예정입니다. 더 큰 수술을 준비 중인 메드트로닉의 휴고(Hugo) 수술용 로봇이 더 로봇 리포트(The Robot Report)에 먼저 등장했다."
+   "ko": "메드트로닉 휴고 수술 로봇의 누적 시술이 회계연도 말까지 5만 건을 넘어설 전망이다."
   },
   {
    "title": "Tesla's Updated Cybercab Manual Hints at Owner Robotaxis, Highway Access & More",
@@ -1003,7 +1003,7 @@
    "hf": null,
    "published": "11/22 01:25",
    "others": [],
-   "ko": "소유자 Robotaxis, 고속도로 접근 등에 대한 Tesla의 업데이트된 Cybercab 매뉴얼 힌트"
+   "ko": "업데이트된 사이버캡 매뉴얼은 오너 로보택시 기능과 고속도로 진입 등을 암시한다는 보도다."
   },
   {
    "title": "Texas robotaxi operators reported 27 crashes. Two involved minor injuries - Austin American-Statesman",
@@ -1026,7 +1026,7 @@
    "hf": null,
    "published": "11/21 20:04",
    "others": [],
-   "ko": "텍사스 로보택시 운전자들은 27건의 충돌 사고를 보고했습니다. 두 건의 경미한 부상 - Austin American-Statesman"
+   "ko": "텍사스 로보택시 운영사들이 27건의 사고를 보고했으며 그중 2건은 경상 부상이었다고 오스틴 아메리칸-스테이츠맨이 전했다."
   },
   {
    "title": "Zoox launches its first robotaxi rides in L.A. County",
@@ -1049,7 +1049,7 @@
    "hf": null,
    "published": "11/21 20:00",
    "others": [],
-   "ko": "Zoox, LA 카운티에서 첫 번째 로봇택시 출시"
+   "ko": "웨이모 경쟁사 Zoox가 LA 카운티에서 첫 로보택시 승차 서비스를 시작했다."
   },
   {
    "title": "SDMCs Third Consecutive Year at Googles TV Summit, Showcasing Home Physical AI",
@@ -1073,7 +1073,7 @@
    "hf": null,
    "published": "11/21 16:25",
    "others": [],
-   "ko": "SDMC, Google TV Summit에서 3년 연속 홈 물리적 AI 선보여"
+   "ko": "SDMC가 구글 TV 서밋 3년 연속 참가해 홈 피지컬 AI를 선보였다는 소식이다."
   }
  ],
  "tabs": {
@@ -1093,7 +1093,7 @@
   "AI": [
    0,
    2,
-   3,
+   4,
    6,
    7,
    9,
@@ -1117,7 +1117,7 @@
   "반도체·아키텍처": [
    1,
    2,
-   4,
+   3,
    5,
    7,
    9,
