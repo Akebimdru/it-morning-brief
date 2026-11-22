@@ -8,13 +8,13 @@
    "AI",
    "반도체·아키텍처"
   ],
-  "score": 7.44,
+  "score": 7.47,
   "outlets": 2,
   "interview": false,
   "techmeme": true,
   "hn": {
-   "points": 305,
-   "comments": 200
+   "points": 316,
+   "comments": 202
   },
   "published": "11/23 03:25",
   "others": []
@@ -51,6 +51,22 @@
   "techmeme": true,
   "hn": null,
   "published": "11/22 15:40",
+  "others": []
+ },
+ {
+  "title": "After FAA, Microsoft, and bank outages, DNI Jay Clayton says Americans should prepare for \"bumps in the road\" as systems are upgraded to adapt to the AI age",
+  "link": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+  "source": "CNBC",
+  "summary": "Director of National Intelligence Jay Clayton warned Americans to prepare for “bumps in the road” …",
+  "cats": [
+   "AI"
+  ],
+  "score": 5.3,
+  "outlets": 1,
+  "interview": false,
+  "techmeme": true,
+  "hn": null,
+  "published": "11/23 05:35",
   "others": []
  },
  {
@@ -99,7 +115,7 @@
   "cats": [
    "AI"
   ],
-  "score": 5.07,
+  "score": 5.06,
   "outlets": 1,
   "interview": false,
   "techmeme": true,
@@ -138,22 +154,6 @@
   ]
  },
  {
-  "title": "Experts say AI has made planning cyberattacks on industrial equipment faster by helping attackers read manuals and research past accidents more quickly",
-  "link": "https://www.ft.com/content/3cf882c6-0be6-43f5-b01e-b6f765686c8b?accessToken=zwAAAaH84u1pkc88-ILGC-ZD9dOwHrb3ZWhsiw.MEQCIEewq-yMEhWLLFytskbl4UfRofl-P5tnaU_ItSGndPYsAiB5E9iR8KtH8A9y5DsKiZxw46YWH_09vwzWKRqKB451VA&sharetype=gift&token=78da349b-c4b7-48c6-8dfa-5cf8d65ca0f1",
-  "source": "Financial Times",
-  "summary": "The freezer war is just a start. The year is 2027. You wake up one morning to find you cannot use email or send instant messages.",
-  "cats": [
-   "AI"
-  ],
-  "score": 4.9,
-  "outlets": 1,
-  "interview": false,
-  "techmeme": true,
-  "hn": null,
-  "published": "11/22 20:01",
-  "others": []
- },
- {
   "title": "Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China",
   "link": "https://www.ft.com/content/f3ad8a81-3890-4a8a-8853-ff0a94b08ba9",
   "source": "Financial Times",
@@ -177,7 +177,7 @@
   "cats": [
    "로보틱스"
   ],
-  "score": 3.16,
+  "score": 3.15,
   "outlets": 1,
   "interview": false,
   "techmeme": false,
