@@ -1,188 +1,1106 @@
-[
- {
-  "title": "OpenAI shares its models' perplexity, or how well they predict data, and urges pacing limits based on such metrics, citing a possible 2027 avalanche of AI gains",
-  "link": "https://openai.com/index/perplexity-and-intelligence",
-  "source": "OpenAI",
-  "summary": "- Difficulty of comparison across labs. … - Detachment from actionable evaluations. … - Not accounting for advances outside of pretraining.",
-  "cats": [
-   "AI",
-   "반도체·아키텍처"
-  ],
-  "score": 7.47,
-  "outlets": 2,
-  "interview": false,
-  "techmeme": true,
-  "hn": {
-   "points": 316,
-   "comments": 202
+{
+ "stories": [
+  {
+   "title": "OpenAI shares its models' perplexity, or how well they predict data, and urges pacing limits based on such metrics, citing a possible 2027 avalanche of AI gains",
+   "link": "https://openai.com/index/perplexity-and-intelligence",
+   "source": "OpenAI",
+   "summary": "- Difficulty of comparison across labs. … - Detachment from actionable evaluations. … - Not accounting for advances outside of pretraining.",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "AI"
+   ],
+   "score": 7.26,
+   "outlets": 2,
+   "interview": false,
+   "techmeme": true,
+   "hn": {
+    "points": 485,
+    "comments": 334
+   },
+   "hf": null,
+   "published": "11/23 03:25",
+   "others": [],
+   "ko": "OpenAI가 모델의 perplexity(예측 정확도) 지표를 공개하고, 이를 기준으로 AI 발전 속도를 제한하자고 주장했다. 2027년 AI 성능의 급격한 도약 가능성을 근거로 들었다."
   },
-  "published": "11/23 03:25",
-  "others": []
- },
- {
-  "title": "A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang's return should depend on probes of its China chip sales and presses Nvidia for answers",
-  "link": "https://www.nytimes.com/2026/11/22/business/scott-bessent-jensen-huang-nvidia.html",
-  "source": "New York Times",
-  "summary": "The treasury secretary said on CBS that it was too soon to say if Jensen Huang should return as the company's chief executive.",
-  "cats": [
-   "빅테크 리더",
-   "반도체·아키텍처"
-  ],
-  "score": 6.77,
-  "outlets": 1,
-  "interview": true,
-  "techmeme": true,
-  "hn": null,
-  "published": "11/23 04:50",
-  "others": []
- },
- {
-  "title": "Tesla rolls out FSD v15, featuring a photorealistic rendering of car surroundings; Elon Musk says it is real-time AI video generation without using game engines",
-  "link": "https://gizmodo.com/its-like-gta-musk-touts-video-game-like-update-to-tesla-fsd-2000843584",
-  "source": "Gizmodo",
-  "summary": "FSD v15 was released to some vehicles on Saturday. Its visualization system may be the most remarkable part.",
-  "cats": [
-   "빅테크 리더",
-   "AI"
-  ],
-  "score": 6.22,
-  "outlets": 1,
-  "interview": true,
-  "techmeme": true,
-  "hn": null,
-  "published": "11/22 15:40",
-  "others": []
- },
- {
-  "title": "After FAA, Microsoft, and bank outages, DNI Jay Clayton says Americans should prepare for \"bumps in the road\" as systems are upgraded to adapt to the AI age",
-  "link": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
-  "source": "CNBC",
-  "summary": "Director of National Intelligence Jay Clayton warned Americans to prepare for “bumps in the road” …",
-  "cats": [
-   "AI"
-  ],
-  "score": 5.3,
-  "outlets": 1,
-  "interview": false,
-  "techmeme": true,
-  "hn": null,
-  "published": "11/23 05:35",
-  "others": []
- },
- {
-  "title": "Sources: amid leak fears, Anthropic limited some IPO banks to four-person teams, used a view-logging file platform, and sought six-month bans on advising rivals",
-  "link": "https://www.reuters.com/world/like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-2026-11-22/",
-  "source": "Reuters",
-  "summary": "For the second time this year, Wall Street bankers and lawyers took home a massive paycheck from a record-setting initial public offering.",
-  "cats": [
-   "AI"
-  ],
-  "score": 5.16,
-  "outlets": 1,
-  "interview": false,
-  "techmeme": true,
-  "hn": null,
-  "published": "11/23 02:15",
-  "others": []
- },
- {
-  "title": "최태원, 한일 '빅텐트' 출범 이어 AI 인재 공동 육성 제안",
-  "link": "https://www.thelec.kr/news/articleView.html?idxno=65742",
-  "source": "디일렉",
-  "summary": "최태원 SK그룹 회장이 한일 양국이 인공지능(AI) 인재를 공동 육성하자고 제안했다. 지난 6월 한일 협력 플랫폼 '빅텐트'를 제안하고 최근 플랫폼을 출범시킨 데 이어 양국의 협력을 다시 강조했다. 22일 SK그룹은 최 회장이 지난 21일 일본 도쿄대에서 열린 '도쿄포럼 2026'에서 한일 기업과 대학이 AI 인재 육성 프로그램을 공동 운영하는 방안을 제시했다고 밝혔다. 청년의 취업 기회를 넓히고 사회 문제…",
-  "cats": [
-   "빅테크 리더",
-   "AI"
-  ],
-  "score": 5.13,
-  "outlets": 2,
-  "interview": true,
-  "techmeme": false,
-  "hn": null,
-  "published": "11/22 13:31",
-  "others": [
-   {
-    "source": "ZDNet Korea",
-    "link": "https://zdnet.co.kr/view/?no=20261122131948"
-   }
-  ]
- },
- {
-  "title": "Jony Ive, ex-OpenAI product designer Joey Flynn, and others on Silicon Valley's obsession with \"taste\" as a moat against AI slop and whether AI can learn it",
-  "link": "https://www.nytimes.com/2026/11/20/magazine/ai-slop-taste-aesthetic-silicon-valley.html?unlocked_article_code=1.SFE.1a6T.-kpbFF_tJYZx&smid=url-share",
-  "source": "New York Times",
-  "summary": "To move through A.I.-era San Francisco as a relatively normal person is to confront the sheer volume of bewildering concepts that tech has lately thrust upon us.",
-  "cats": [
-   "AI"
-  ],
-  "score": 5.06,
-  "outlets": 1,
-  "interview": false,
-  "techmeme": true,
-  "hn": null,
-  "published": "11/23 00:00",
-  "others": []
- },
- {
-  "title": "머스크, AI5를 Optimus에 배정하고 Tesla 차량은 AI4 사용 유지",
-  "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRjdVNF9WNjIydGpuaHpnUTNCWWZyeGRMZWlSTHJzbGx3Tkx3cndneXdrWC1JcU9jRzMxVE93b093RzljQy1tZndTdXVmQnNOeDkxbUx5MVpySFJfTFF4cHd2U2FEUjAxUG9PNUFjS1hvSWM2WUdCTHQ4d2ppZ29sZThvVklsQzQ?oc=5",
-  "source": "Unite.AI",
-  "summary": "",
-  "cats": [
-   "빅테크 리더",
-   "로보틱스"
-  ],
-  "score": 4.91,
-  "outlets": 4,
-  "interview": true,
-  "techmeme": false,
-  "hn": null,
-  "published": "11/23 03:23",
-  "others": [
-   {
-    "source": "Electric Vehicles",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkdIRkR5VEtMMHJBZE1lanRfWjlsaGRrM1dncnA2eXE5bEFoQ0p6eFNOeGJWQ09ZNlpicmVWNC1LMG1oZ3QwTG5tRl8wck9fNkNuRXlTWWZ0RHR0NzBHTUtMOEs1R1NyY09QSnZwY1JNVWV6c2otekQyVFBqR05kT3ZfREI2YXJ0SEVycV9veGhUQVZXZXJQZHRVSDJtRUQt?oc=5"
+  {
+   "title": "A week after urging an Nvidia shake-up, Scott Bessent says Jensen Huang's return should depend on probes of its China chip sales and presses Nvidia for answers",
+   "link": "https://www.nytimes.com/2026/11/22/business/scott-bessent-jensen-huang-nvidia.html",
+   "source": "New York Times",
+   "summary": "The treasury secretary said on CBS that it was too soon to say if Jensen Huang should return as the company's chief executive.",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "빅테크 리더",
+    "반도체·아키텍처"
+   ],
+   "score": 6.21,
+   "outlets": 1,
+   "interview": true,
+   "techmeme": true,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 04:50",
+   "others": [],
+   "ko": "베선트 미 재무장관은 엔비디아 구조 개편을 요구한 지 일주일 만에, 젠슨 황 CEO의 복귀 여부는 중국 칩 판매 관련 조사 결과에 달려 있다고 밝혔다. 엔비디아에 대한 답변도 압박했다."
+  },
+  {
+   "title": "Tesla rolls out FSD v15, featuring a photorealistic rendering of car surroundings; Elon Musk says it is real-time AI video generation without using game engines",
+   "link": "https://gizmodo.com/its-like-gta-musk-touts-video-game-like-update-to-tesla-fsd-2000843584",
+   "source": "Gizmodo",
+   "summary": "FSD v15 was released to some vehicles on Saturday. Its visualization system may be the most remarkable part.",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "빅테크 리더",
+    "AI"
+   ],
+   "score": 5.66,
+   "outlets": 1,
+   "interview": true,
+   "techmeme": true,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 15:40",
+   "others": [],
+   "ko": "테슬라가 FSD v15를 일부 차량에 배포했으며, 주변 환경을 사실적으로 렌더링하는 시각화 기능이 핵심이다. 머스크는 게임 엔진 없이 실시간 AI 영상 생성이라고 설명했다."
+  },
+  {
+   "title": "After FAA, Microsoft, and bank outages, DNI Jay Clayton says Americans should prepare for “bumps in the road” as systems are upgraded to adapt to the AI age",
+   "link": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+   "source": "CNBC",
+   "summary": "Director of National Intelligence Jay Clayton warned Americans to prepare for “bumps in the road” …",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "AI"
+   ],
+   "score": 4.74,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": true,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 05:35",
+   "others": [],
+   "ko": "클레이튼 국가정보국장(DNI)은 FAA, 마이크로소프트, 은행 장애가 잇따른 가운데 시스템 업그레이드 과정에서 미국인들이 '도로 위 险路' 같은 불편을 각오해야 한다고 경고했다."
+  },
+  {
+   "title": "Sources: amid leak fears, Anthropic limited some IPO banks to four-person teams, used a view-logging file platform, and sought six-month bans on advising rivals",
+   "link": "https://www.reuters.com/world/like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-2026-11-22/",
+   "source": "Reuters",
+   "summary": "For the second time this year, Wall Street bankers and lawyers took home a massive paycheck from a record-setting initial public offering.",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "AI"
+   ],
+   "score": 4.6,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": true,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 02:15",
+   "others": [],
+   "ko": "소식통에 따르면 앤트로픽은 정보 유출 우려 속에 일부 IPO 주관은행의 참여 인원을 4인 팀으로 제한하고, 열람 기록 파일 플랫폼을 활용했으며 경쟁사 자문 금지 6개월을 요구했다."
+  },
+  {
+   "title": "Jony Ive, ex-OpenAI product designer Joey Flynn, and others on Silicon Valley's obsession with “taste” as a moat against AI slop and whether AI can learn it",
+   "link": "https://www.nytimes.com/2026/11/20/magazine/ai-slop-taste-aesthetic-silicon-valley.html?unlocked_article_code=1.SFE.1a6T.-kpbFF_tJYZx&smid=url-share",
+   "source": "New York Times",
+   "summary": "To move through A.I.-era San Francisco as a relatively normal person is to confront the sheer volume of bewildering concepts that tech has lately thrust upon us.",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "AI"
+   ],
+   "score": 4.51,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": true,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 00:00",
+   "others": [],
+   "ko": "조니 아이브 등은 AI 시대에 'AI 슬롭'에 맞서는 해자로서 실리콘밸리가 '취향(taste)'에 집착하는 현상과 AI가 이를 학습할 수 있는지를 논했다."
+  },
+  {
+   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+   "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "source": "betterdatacenterproject.com",
+   "summary": "A case study of Anthropic's total power use and emissions. We find the company could emit 32 million metric tons of carbon dioxide in 2028.",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "AI"
+   ],
+   "score": 4.38,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": {
+    "points": 895,
+    "comments": 898
    },
-   {
-    "source": "Tesla Accessories",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZnB0NDZKTVJ6ZFJGVnBqcUFaaXFjZy15SDNCNUdvUktVV3VpX1J3NUYtUVNXbmFTbmJlampPMkloS2l4cVk0bmlrV0RVMF8yUWZUZm1DSGlTOHd1bklyRG9VdFFWdW82YVBsZW8tcXpSeElBY3JDeTlBVmtCcGZYZFgtdF9PZzJMbW42Q0ZuV2prNnZEdmxkTFlZRGY?oc=5"
+   "hf": null,
+   "published": "11/22 17:57",
+   "others": [],
+   "ko": "앤트로픽 전력의 2028년 87%가 가스, 11%가 석탄에서 나올 것이라는 분석이다. 분석에 따르면 2028년 이산화탄소 배출량은 3,200만 미터톤에 이를 수 있다."
+  },
+  {
+   "title": "머스크, AI5를 Optimus에 배정하고 Tesla 차량은 AI4 사용 유지",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRjdVNF9WNjIydGpuaHpnUTNCWWZyeGRMZWlSTHJzbGx3Tkx3cndneXdrWC1JcU9jRzMxVE93b093RzljQy1tZndTdXVmQnNOeDkxbUx5MVpySFJfTFF4cHd2U2FEUjAxUG9PNUFjS1hvSWM2WUdCTHQ4d2ppZ29sZThvVklsQzQ?oc=5",
+   "source": "Unite.AI",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "빅테크 리더",
+    "로보틱스"
+   ],
+   "score": 4.35,
+   "outlets": 4,
+   "interview": true,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 03:23",
+   "others": [
+    {
+     "source": "Tesla Accessories",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZnB0NDZKTVJ6ZFJGVnBqcUFaaXFjZy15SDNCNUdvUktVV3VpX1J3NUYtUVNXbmFTbmJlampPMkloS2l4cVk0bmlrV0RVMF8yUWZUZm1DSGlTOHd1bklyRG9VdFFWdW82YVBsZW8tcXpSeElBY3JDeTlBVmtCcGZYZFgtdF9PZzJMbW42Q0ZuV2prNnZEdmxkTFlZRGY?oc=5"
+    },
+    {
+     "source": "Electric Vehicles",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkdIRkR5VEtMMHJBZE1lanRfWjlsaGRrM1dncnA2eXE5bEFoQ0p6eFNOeGJWQ09ZNlpicmVWNC1LMG1oZ3QwTG5tRl8wck9fNkNuRXlTWWZ0RHR0NzBHTUtMOEs1R1NyY09QSnZwY1JNVWV6c2otekQyVFBqR05kT3ZfREI2YXJ0SEVycV9veGhUQVZXZXJQZHRVSDJtRUQt?oc=5"
+    },
+    {
+     "source": "Crypto Briefing",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ncE5jcmJ0b0xQVW5GSW5jeXEzOHBvVWY2M2RoZUJMTnAta25tQUo0ak5fVEktcl9pT3NrdnVfdlBsNE9KU2dHdDcyQzVPd1hZTGZ2NkZEZDhoYWMzcVhKa3YyMGtYUlZ1WUZza1BIVXh2Nms?oc=5"
+    }
+   ],
+   "ko": "머스크는 차세대 AI 칩 AI5를 Optimus 휴머노이드에 배정하고, 테슬라 차량에는 현행 AI4를 계속 사용하기로 했다고 보도됐다."
+  },
+  {
+   "title": "Experts say AI has made planning cyberattacks on industrial equipment faster by helping attackers read manuals and research past accidents more quickly",
+   "link": "https://www.ft.com/content/3cf882c6-0be6-43f5-b01e-b6f765686c8b?accessToken=zwAAAaH84u1pkc88-ILGC-ZD9dOwHrb3ZWhsiw.MEQCIEewq-yMEhWLLFytskbl4UfRofl-P5tnaU_ItSGndPYsAiB5E9iR8KtH8A9y5DsKiZxw46YWH_09vwzWKRqKB451VA&sharetype=gift&token=78da349b-c4b7-48c6-8dfa-5cf8d65ca0f1",
+   "source": "Financial Times",
+   "summary": "The freezer war is just a start. The year is 2027. You wake up one morning to find you cannot use email or send instant messages.",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "AI"
+   ],
+   "score": 4.34,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": true,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 20:01",
+   "others": [],
+   "ko": "전문가들은 공격자가 산업 장비 매뉴얼을 빠르게 읽고 과거 사고를 조사하는 데 AI를 활용해, 산업 제어 장비에 대한 사이버 공격 계획이 빨라졌다고 지적했다."
+  },
+  {
+   "title": "Current and former officials from the US and other countries describe the Chinese spy agency MSS' campaign to help Chinese companies acquire advanced AI chips",
+   "link": "https://www.nytimes.com/2026/11/21/world/asia/china-nvidia-spy-chips-state-security.html?unlocked_article_code=1.SVE.6AIw.4HHCTzFjtDId&smid=url-share",
+   "source": "New York Times",
+   "summary": "China's espionage agency has been running a secret campaign to help the country's companies acquire advanced A.I. chips …",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "AI",
+    "반도체·아키텍처"
+   ],
+   "score": 4.17,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": true,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 16:00",
+   "others": [],
+   "ko": "중국 국가안전부(MSS)가 자국 기업의 첨단 AI 칩 확보를 돕기 위해 비밀 작전을 벌여 왔다는 내용을 미국 및 다른 나라 관계자들이 증언했다."
+  },
+  {
+   "title": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
+   "link": "https://arxiv.org/abs/2606.14068",
+   "source": "arxiv.org",
+   "summary": "Abstract page for arXiv paper 2606.14068: Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing Across Diverse Conflict Scenarios",
+   "kind": "paper",
+   "venue": "arxiv.org",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "AI"
+   ],
+   "score": 2.6,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": {
+    "points": 91,
+    "comments": 77
    },
-   {
-    "source": "Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ncE5jcmJ0b0xQVW5GSW5jeXEzOHBvVWY2M2RoZUJMTnAta25tQUo0ak5fVEktcl9pT3NrdnVfdlBsNE9KU2dHdDcyQzVPd1hZTGZ2NkZEZDhoYWMzcVhKa3YyMGtYUlZ1WUZza1BIVXh2Nms?oc=5"
-   }
+   "hf": null,
+   "published": "11/22 18:18",
+   "others": [],
+   "ko": "arXiv에 공개된 논문으로, LLM이 갈등 상황에서 남성과 여성에 대해 도덕적 평가를 다르게 표현하는지 여러 시나리오로 평가했다."
+  },
+  {
+   "title": "Sources: AI server suppliers like Dell, HPE, Lenovo, and Supermicro are demanding substantially higher prices from buyers, months after contracts were signed",
+   "link": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f",
+   "source": "Financial Times",
+   "summary": "Dell, HPE, Lenovo and Supermicro demand more for equipment, with the increased costs hitting trading firms",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "AI"
+   ],
+   "score": 4.13,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": true,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 14:50",
+   "others": [],
+   "ko": "소식통에 따르면 Dell, HPE, Lenovo, Supermicro 등 AI 서버 공급업체가 계약 체결 후 수개월 뒤 구매자에게 장비 가격 인상을 요구하고 있어 무역업체의 비용 부담이 커지고 있다."
+  },
+  {
+   "title": "Sources: Alice Huang associate Li Ming, whom Singapore charged with fraud in 2025, was central to smuggling restricted AI chips from Southeast Asia to China",
+   "link": "https://www.wsj.com/tech/li-ming-megaspeed-nvidia-chips-china-6260d836?st=HzXMZU",
+   "source": "Wall Street Journal",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "AI",
+    "반도체·아키텍처"
+   ],
+   "score": 4.12,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": true,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 14:45",
+   "others": [],
+   "ko": "소식통에 따르면 싱가포르에서 2025년 사기 혐의로 기소된 리밍이 동남아에서 중국으로 제한 AI 칩을 밀반출하는 데 핵심 역할을 했다는 보도다."
+  },
+  {
+   "title": "Grab Keychron's full-sized low-profile K5 V2 wireless mechanical keyboard for its lowest-ever price of just $56",
+   "link": "https://www.tomshardware.com/peripherals/mice/grab-keychrons-full-sized-low-profile-k5-v2-wireless-mechanical-keyboard-for-its-lowest-ever-price-of-just-usd56-108-key-low-profile-clacker-supports-qmk-sports-three-layers-of-foam",
+   "source": "Tom's Hardware",
+   "summary": "Whether it's primarily for data input, or you just like lots of customizable keys for gaming, plenty of people swear by full-sized keyboards. And at just $55.99, returning to its lowest-ever price not seen since June, the Keychro…",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "통신·전송"
+   ],
+   "score": 2.64,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 03:15",
+   "others": [],
+   "ko": "키크론 K5 V2 풀사이즈 저프로파일 무선 기계식 키보드가 56달러로 역대 최저가에 판매되고 있다. 6월 이후 보지 못한 최저 가격이다."
+  },
+  {
+   "title": "Tesla’s Robotaxi Just Put Starlink Inside Its Roof",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAweFNaTF9zYW5oTVhmWDU2cUx2SHdOU1BOYWhNRzhtQ1RDQWU5ZG9VbnNXSXRjYzJJWC0yYUtaTmRpZ2xQdFB0SWM1TWxMZ0IycnNpRnJSWXhTaXJ4TXg3UEN3RktiNXphWllQSzFQSkRkUHhOMlNVOW9yNA?oc=5",
+   "source": "Motor1.com",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "통신·전송",
+    "로보틱스"
+   ],
+   "score": 1.96,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 03:38",
+   "others": [],
+   "ko": "테슬라 로보택시 차량 지붕에 스타링크 장치가 탑재됐다는 소식이다. 차량 내 통신 연결 강화를 보여주는 사례로 볼 수 있다."
+  },
+  {
+   "title": "US gov’t backs Cagayan to Davao subsea cable",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa2pDV1p5STZ3ME4xSGk0RWdndlVUWmJteGtjQXVVWDdiYnBwU2Q0RHRnNGoxYXR1ZzFhOExUQWlUMl9ad2xLRXljY3p0eFBKOEJIM1pSRGdULTdyNDNwMEJNNzU1ZWVhNW9vWVZDS0dEZmg4REt4NDgtV0MzbWcwQVoyMHdFUTDSAYwBQVVfeXFMT0RIbE9VbUdIVU5zRHNNajVMZUhDV05vWVZxTXRXWHgwTXhhSXowQW1jM0Z4eW1lTWNJS21BWFo1OHNVUEpobWFUWGhvaWc1empOZFhFNXFPNy0xSlhWU19YclZBb2s1bjRqSkxvel9XNU1Cb1JyQ01TcEFsQjVGWGIzTFpFeHAyTnJvQm8?oc=5",
+   "source": "Inquirer.net",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "통신·전송"
+   ],
+   "score": 1.94,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 03:04",
+   "others": [],
+   "ko": "미국 정부가 필리핀 카가얀과 다바오를 잇는 해저 케이블 사업을 지원한다는 소식이다."
+  },
+  {
+   "title": "India joins 24 countries in global initiative on 6G technology | Akashvani News",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObjY4NnRCMUVMSXlxeDVpbmdWTC1kZktvakxQSkNpUDBpVEFlOG1PdVAwcmhmMzR1MjEwcDRpYTluaDczV1VvYWpvNm9DUE5YSV9YaXUxSDR4Wmg0WDYyUkZSX2pHRGlpSTNIaVhaUGRqaE5lblhYTHJxOW1ySWpjQl9ncERtd29NQ2tzNWFPVGs0dw?oc=5",
+   "source": "News On AIR",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "통신·전송"
+   ],
+   "score": 1.82,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 00:23",
+   "others": [],
+   "ko": "인도가 6G 기술 관련 글로벌 이니셔티브에 참여해 24개국과 함께하게 됐다는 소식이다."
+  },
+  {
+   "title": "Three China A-share IPOs open for subscription next week, led by optical module die-bonder maker Lieqi Intelligent, the global market share leader",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RUDZVY2dYUXo1QVhwSnZ2N0w5bzlTSjlMYmpZUnVwNWdCSHo0SzE1STBSZENaZ01sUjQzaU80QjcyRWw5M1dIYUd6ZldBcndsT0JTRlRZZFluU1preXNZOWltc2dxQVd1Qms1a3FNWjZHLUUydXc?oc=5",
+   "source": "BigGo Finance",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "통신·전송"
+   ],
+   "score": 1.58,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 18:35",
+   "others": [],
+   "ko": "광모듈 다이본더 제조사 Lieqi Intelligent를 필두로 중국 A주 신규 상장 3곳이 다음 주 청약을 시작한다. Lieqi는 세계 시장 점유율 1위다."
+  },
+  {
+   "title": "Nokia's Pentagon 5G-6G Win Sits Alongside a EUR 5.3 Billion AI Backlog and a Supply-Side Brake - ad-hoc-news.de",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNV0VZTEYzWnZiSUp5aHZibGRZUW1HNV85UWJVdHEzMlp6ejM4QlpueHVoc2ZwdWVrNHEzS3dlMWcyd2ZvVWxnM19tWTRzMWxxUWZ4b0YzNkFyV2hYWFhHYXBVNE9pYm9YbWZwbnVSbTZqajFFODlmcHM4TDlTeXBicjlXYkFlbmYxWV91WVg2a2VTczNESE90a1hUX0s0RTE0S24xN0NpZ1Bfb3V5WjY2T3BNVzRMWEFRTlNfcUVnNjdvckpodTBsUnJzM1hrUWRObUtrSTVYYWF6TG1IakROdzliZktlVDl1TEJfS3NndWY1OThLd1FZNm5R?oc=5",
+   "source": "gnews:transmission",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "통신·전송",
+    "AI"
+   ],
+   "score": 1.49,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 16:22",
+   "others": [],
+   "ko": "노키아가 미 국방부 5G·6G 사업을 따낸 반면 AI 수주잔고 53억 유로와 공급 측면의 제동이 함께 거론된다는 분석이다."
+  },
+  {
+   "title": "Greek 6G Proposal Could Generate €15 Billion for Europe",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTUFwRGk5aXR2UmhWQ1N0Y1FuZ196Q3J1Y3l2TndXZnAtY3hRWUlzMVNwR0RBMXhFYzg2N2VpTHJXWXYwMVBJNU90QzBzY1RDTHBWclNMb01NdU9IQ2xEdm5mVkhxenNidTJ0OWdWTlVLWF90eF84WThtNVl2UERQQnFZMkVSWjNfX0YtWXh6TEkyRkozVHdoMGd3?oc=5",
+   "source": "Greek City Times",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "통신·전송"
+   ],
+   "score": 1.32,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 12:22",
+   "others": [],
+   "ko": "그리스의 6G 제안이 유럽에 150억 유로의 경제적 효과를 낼 수 있다는 주장이다."
+  },
+  {
+   "title": "Wacker Selected for Government-Backed CPO Optical Interconnect Materials Project",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41UVFEZHZyNFNpTmc3YzNXYnFLX2xMZmxmSGZILTViQTk3REU2ellySGFvTUl6eWV3WVpKbFV4eml4cllKUU9RQWEzcFJmc1liajBUclBPUTg2ZU82aW9hSF9TVWcwb3M?oc=5",
+   "source": "THE ELEC, Korea Electronics Industry Media",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "통신·전송"
+   ],
+   "score": 1.26,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 10:47",
+   "others": [],
+   "ko": "바커가 정부 지원 CPO 광인터커넥트 소재 프로젝트에 선정됐다는 소식이다. CPO 기술 소재 분야에서의 입지를 넓히는 계기가 된다."
+  },
+  {
+   "title": "“네 어머니가 너를 낙태했어야”… 젠슨 황, 임직원에 상습적 폭언",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51WEdNOUh1R2NRLWtBOU9jdlNLWE5Lallta2x1X19EQVc2REU0emJ3eWJvOUZ0LUhOSWJQc1d1bE5TQWdzYnFLYW4tUm05STFrMVBDa3NJN2xYTDFGU1ZvRVZNSE5SV3V6cGhJVHg4cEJVZzTSAWZBVV95cUxQNTkwcTlVSUl1VTZEM1B1dzNNY29JZ1g0NmIyckM3UVRXZ0RZZXo0WlBMYjNBRXM5d3dfeExjVEZjcjYxVTRwckxyR0pzb2twWW41TkljZms5UEVLYUw2c25sSGZWc1E?oc=5",
+   "source": "동아일보",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "빅테크 리더",
+    "반도체·아키텍처"
+   ],
+   "score": 3.2,
+   "outlets": 5,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 04:30",
+   "others": [
+    {
+     "source": "서울경제",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9FQ2FaNXluRGpJSm5VUF9jYXk2OUVRT0pNb0VnYmp3cFhSa21yY0VDSjlQNUJ0YWliTnRPVjJGTXdGUDM3cWttNmFsOFFTRm1GS2fSAVNBVV95cUxPaURiS2JmYUJ1OG1NWm5Yb1ZrVHNpRWx4LS1ybXJXZjV1OFBaT1VEVFNOU1JQdUs0bzBXMFBmd1RzTE5ZSU42R3VYZnN5cndkNUNBOA?oc=5"
+    },
+    {
+     "source": "뉴시스",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE56eElLUl9KT09abWQ5ODhiVllKcnZuQUFtVzJhR1JqTkx5NGNWWWd3bGNKeGJ2Q0V5czlRbmJRQmdqc0FsX21YZzdWendIaUs1dHZxem5GX0lGNUoyOFlRMNIBeEFVX3lxTE9fUVZ5aFNWZ2dwVEZ2cV9YWE1DZzBKMmRkUjQyT08wcm1iem9MTEg4VE5NNktjMFI3Wm04UThnOWhDMnRZbmhscHQxWFpvMWJ4SHBwU1hvUUEzZlpHeDhhdmV1SDhobW5tOUxDQVRRMHNvTzlFY3I5cA?oc=5"
+    },
+    {
+     "source": "한국일보",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1CNXc3anBKX1d4QWd0X2F5MGFqVkxZNGVObDhmT183RmlEaThxVWpua2dlYXo0ZUdUc1pJUzlKVXFLdHBrbHl2WHhKQkNLTE8tc3R6eXJkc3p1MkhPYnpnWkxlWDFPQ0dveU0weXZR0gFzQVVfeXFMUC1HeXk5amhjQmthNGNlM0d0VkpQVmJZQ0tFamZzVlBMc1hwbmdMUTg4MzE3VXBQNTFqU2c1S2ZCUkpVOVIzcndlTVdXU21Gd1drckt3a1hhRGE4bEVOZ2dBVDJPa0w3dzV3OC1YOUVMTXdDYw?oc=5"
+    },
+    {
+     "source": "데일리안",
+     "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNUXF4ajRVMVRONlgwNTk1RzVqb0dGVHpJMUtqVll0VG1jLWt5Z1drRmEyVkRVaTNIQk80MHBBdndLbHpBUUgxNlc1eU0tei1idVZ0bllWQmphNWZTNFdVWG5zSnJrQThpWEpkemhXS1JEcVNGRFk2Q09oRVRUMy0xbzczcVU5OFpjd09RLU5QRk5hZ1RmU2VPel9PVkFoZGJsX21USGRRYkVvOVdMdDJXVW1FN1pOT3A3eWhhSTgtOE5PUllobnlKNTY5MFZMbXc1clhBV3l4dWE2V05tZ3lXN1ZyQjI1WGxQYTRsMUlCZFVnaFM1clRIYktXVVM1N1FRVUVZcFhtLVhJck5faTN4NnVUSFNpdjg1?oc=5"
+    }
+   ],
+   "ko": "동아일보는 젠슨 황 엔비디아 CEO가 임직원에게 상습적으로 폭언을 했다고 보도했다. 구체적으로는 낙태를 언급하는 막말이 포함됐다."
+  },
+  {
+   "title": "Why data centers are at the center of the Big Tech backlash",
+   "link": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+   "source": "TechCrunch",
+   "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "반도체·아키텍처"
+   ],
+   "score": 2.64,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 03:08",
+   "others": [],
+   "ko": "언론인 Paris Marx의 신간 'Hyperscale'을 계기로, 빅테크 반발의 중심에 데이터센터가 놓인 이유를 짚었다."
+  },
+  {
+   "title": "Centec ZX530S-24S2CQ Review The Cheap 10G and 100G Switch Option with a Centec Switch Chip",
+   "link": "https://www.servethehome.com/centec-zx530s-24s2cq-review/",
+   "source": "ServeTheHome",
+   "summary": "We test the ZX530S-24S2CQ switch, a 24-port SFP+ 10G switch with two 100G SFP28 ports, but with a surprise Chinese Centec switch chip inside The post Centec ZX530S-24S2CQ Review The Cheap 10G and 100G Switch Option with a Centec…",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "반도체·아키텍처"
+   ],
+   "score": 2.63,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 03:00",
+   "others": [],
+   "ko": "Centec 스위치 칩을 탑재한 ZX530S-24S2CQ 스위치를 리뷰했다. 24포트 10G와 2포트 100G를 저렴하게 구성할 수 있다는 점이 특징이다."
+  },
+  {
+   "title": "TSMC reportedly pauses shipments to Chinese designers after U.S. export rules flag decade-old 16nm and 14nm nodes",
+   "link": "https://www.tomshardware.com/tech-industry/policy/tsmc-reportedly-pauses-shipments-to-chinese-designers-after-u-s-export-rules-flag-decade-old-16nm-and-14nm-nodes-new-bis-controls-threaten-smartphone-tv-and-automotive-chips",
+   "source": "Tom's Hardware",
+   "summary": "The U.S. Bureau of Industry and Security (BIS) has released an interim final rule (IFR) [ PDF ] that will prevent Chinese AI companies from leasing data compute outside of China to access advanced U.S. chips like Nvidia Blackwell…",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "반도체·아키텍처"
+   ],
+   "score": 2.45,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 22:30",
+   "others": [],
+   "ko": "미 상무부 산하 BIS의 임시 최종 규칙에 따라 TSMC가 중국 설계업체로의 16nm·14nm 칩 출하를 일시 중단했다는 보도다. 중국 AI 기업의 해외 컴퓨팅 임대를 막는 조치다."
+  },
+  {
+   "title": "AI agents design an entirely new CPU architecture from scratch, startup claims",
+   "link": "https://www.tomshardware.com/tech-industry/semiconductors/ai-agents-design-an-entirely-new-cpu-architecture-from-scratch-startup-claims-frostbite-posts-4-59x-the-performance-per-watt-of-an-in-order-core-in-pre-silicon-tests",
+   "source": "Tom's Hardware",
+   "summary": "Architect Labs, a Palo Alto startup, said in a research blog post that its AI systems discovered, designed, and verified Frostbite, a general-purpose CPU with a new instruction set “built from the ground up.” Across 25 workloads,…",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "AI",
+    "반도체·아키텍처"
+   ],
+   "score": 2.42,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 22:00",
+   "others": [],
+   "ko": "Architect Labs는 AI 시스템이 새로운 명령어 집합을 가진 범용 CPU 'Frostbite'를 설계·검증했다고 주장했다. 25개 워크로드에서 성능을 평가했다고 밝혔다."
+  },
+  {
+   "title": "Moore Threads' next 'Lushan' gaming GPU could pack a record 64GB of VRAM",
+   "link": "https://www.tomshardware.com/pc-components/gpus/moore-threads-next-lushan-gaming-gpu-could-pack-a-record-64gb-of-vram-doubles-the-rtx-5090s-32gb-lofty-claims-of-15x-gaming-and-50x-ray-tracing-over-mtt-s80",
+   "source": "Tom's Hardware",
+   "summary": "Moore Threads’ MTT S80 product manager says that the next Lushan gaming GPU will have more VRAM than any consumer graphics card currently available, VideoCardz reports. With Nvidia’s RTX 5090 already at 32GB, Lushan would need mo…",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "반도체·아키텍처"
+   ],
+   "score": 2.4,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 21:30",
+   "others": [],
+   "ko": "Moore Threads의 차세대 Lushan 게이밍 GPU가 64GB VRAM을 탑재할 수 있다는 소식이다. 현재 소비자용 최대 용량인 RTX 5090의 32GB를 크게 웃돈다."
+  },
+  {
+   "title": "Come for the science, stay for the big iron: Supercomputer admin on why he loves the job",
+   "link": "https://www.theregister.com/hpc/2026/11/22/come-for-the-science-stay-for-the-big-iron-supercomputer-admin-on-why-he-loves-the-job/5311247",
+   "source": "The Register",
+   "summary": "From the dotcom bubble to 200,00 cores of raw power",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "반도체·아키텍처"
+   ],
+   "score": 2.25,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 17:48",
+   "others": [],
+   "ko": "닷컴 버블 시기부터 20만 코어급 슈퍼컴퓨터를 운영해 온 관리자가 이 직업을 좋아하는 이유를 밝혔다."
+  },
+  {
+   "title": "Matchmakers say more tech workers fear romantic espionage after the Jensen Huang scandal; an AI companion app pitches “zero espionage” executive girlfriends",
+   "link": "https://www.wired.com/story/regular-tech-bros-are-worried-about-honeypots/",
+   "source": "Wired",
+   "summary": "The Jensen Huang scandal is the latest fuel for dating anxieties among newly rich and powerful tech workers.",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "AI",
+    "빅테크 리더"
+   ],
+   "score": 3.89,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": true,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 09:10",
+   "others": [],
+   "ko": "젠슨 황 스캔들 이후 기술 업계 종사자들이 로맨스를 통한 산업 스파이 활동을 더 우려한다는 분석이다. AI 동반자 앱은 이를 겨냥한 '스파이 없는' 서비스를 내세웠다."
+  },
+  {
+   "title": "최태원, 한일 '빅텐트' 출범 이어 AI 인재 공동 육성 제안",
+   "link": "https://www.thelec.kr/news/articleView.html?idxno=65742",
+   "source": "디일렉",
+   "summary": "최태원 SK그룹 회장이 한일 양국이 인공지능(AI) 인재를 공동 육성하자고 제안했다. 지난 6월 한일 협력 플랫폼 '빅텐트'를 제안하고 최근 플랫폼을 출범시킨 데 이어 양국의 협력을 다시 강조했다. 22일 SK그룹은 최 회장이 지난 21일 일본 도쿄대에서 열린 '도쿄포럼 2026'에서 한일 기업과 대학이 AI 인재 육성 프로그램을 공동 운영하는 방안을 제시했다고 밝혔다. 청년의 취업 기회를 넓히고 사회 문제…",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "빅테크 리더",
+    "AI"
+   ],
+   "score": 3.56,
+   "outlets": 1,
+   "interview": true,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 13:09",
+   "others": [],
+   "ko": "최태원 SK그룹 회장이 한일 양국의 대학과 기업이 공동으로 AI 인재를 육성하자고 제안했다. 도쿄포럼 2026에서 나온 발언으로, 한일 협력 플랫폼 '빅텐트'의 연장선이다."
+  },
+  {
+   "title": "美 재무장관 \"엔비디아 수출통제 위반 여부, 젠슨 황과 별개\"",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45cVlyUlFoTVJ1b3BTdDFxUlF1bmFrNi1xVF9pNHNEaTNReU9kYlM4TWFSN2JBU3J5ZHJjSjdfd29Md1RvNHZvaVlMUElPVi0xbmsyWGxPY2pwdw?oc=5",
+   "source": "한국경제",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "반도체·아키텍처",
+    "빅테크 리더"
+   ],
+   "score": 2.08,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 06:30",
+   "others": [],
+   "ko": "베선트 미 재무장관은 엔비디아의 수출통제 위반 여부는 젠슨 황 개인 문제와 별개로 판단해야 한다고 밝혔다."
+  },
+  {
+   "title": "美재무 젠슨 황 개인 스캔들과 엔비디아 규정 준수 문제 구분해야",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SUnZROVc2X1UtRm5Pa2hkM1lzaC1vNzRhcUpxNkJIVUJwdm1KVU5oaVMySXVKNThSbVdmMlFwVllPazVIRDRRVHI1aHhIUXFwQ3hsMXJNeWluQdIBWEFVX3lxTE56dFFQMXVlbWhtYWdraVZGWG9sdE94SFViLVlnZlBvZXhNclpPX2FsOEJLZ0loS1cwbWU2a2w4WFc5SHZVRzIzalVXVDFtYTJQMnRCNFVVQmY?oc=5",
+   "source": "아주경제",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "반도체·아키텍처",
+    "빅테크 리더"
+   ],
+   "score": 2.08,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 06:36",
+   "others": [],
+   "ko": "미 재무장관은 젠슨 황 개인 스캔들과 엔비디아의 규정 준수 문제를 구분해야 한다고 강조했다. 두 사안을 섞어 판단하지 말라는 취지다."
+  },
+  {
+   "title": "[데스크칼럼] 젠슨 황 이후, 엔비디아의 셈범",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0ZWJwVWJxYXlGMHNWbGx1Q2djUVU5aDZDcXowRFVPUzcxVnNGRTN2aHBhNjc0U3czSkxzclR5YWNEOGsxWWtvelRUZVh1LWlaY1FOS3p0VEs1aEhRR0V4M3lsRTctanlObDkxNll1UFjSAXRBVV95cUxOOTZRamFCcWtzaXFPTjJYV1lxZFJtTmJSems5LTY4UElnWnZNdmJjLU9rblIzUGQ5Tmdodm84YmdBQ3lVdUZoVWR3T1dsRkJacFp2ODdGcVJmdGlTM2czYXktM2tKenctejM0U3o2VTVnckN6MQ?oc=5",
+   "source": "IT조선",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "반도체·아키텍처",
+    "빅테크 리더"
+   ],
+   "score": 2.06,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 06:00",
+   "others": [],
+   "ko": "IT조선 칼럼은 젠슨 황 논란 이후 엔비디아가 어떤 셈법을 취해야 할지 짚었다. 리더십 공백이 회사 전략에 미칠 영향이 쟁점이다."
+  },
+  {
+   "title": "美정보수장 \"젠슨 황 연루 中스파이 의혹 수사\"…엔비디아 칩 유출 조사",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE03T0xqV1IwU2ptODMybmJKM0ZFOU54VE5lajdMNXVOYncyR3diTzdEQXZEalAzNnZnRFo4cnQtOTRlYjZ4a1B2czBXUDRkSEZYU1BkSDlOcVY?oc=5",
+   "source": "뉴스1",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "반도체·아키텍처",
+    "빅테크 리더"
+   ],
+   "score": 2.03,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 05:15",
+   "others": [],
+   "ko": "미 정보수장이 젠슨 황과 연루된 중국 스파이 의혹을 수사 중이며, 엔비디아 칩 유출도 조사 대상이라는 보도다."
+  },
+  {
+   "title": "스스로 길 찾고 균형까지…산길 달리는 'AI 자전거 로봇'",
+   "link": "https://www.etnews.com/20261120000267",
+   "source": "전자신문",
+   "summary": "사람이 조종하지 않아도 험한 산길을 스스로 달리는 AI 자전거 로봇이 등장했습니다. 스위스 취리히 연방공대와 로보틱스·AI 연구소 RAI 연구진은 자율주행 자전거 로봇 'UMV'의 주행 실험 결과를 공개했습니다. 이 로봇은 카메라와 라이다 센서로 주변 지형을 파악하고, AI를 이용해 스스로 길을 선택하고 균형을 잡습니다. 바위와 나무뿌리, 급커브가 있는 산길도 주행할 수 있습니다. 실험에서는 약 1km의 산…",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "AI",
+    "로보틱스"
+   ],
+   "score": 2.76,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 06:00",
+   "others": [],
+   "ko": "취리히 연방공대 연구진이 사람 조종 없이 험한 산길을 스스로 주행하는 자율 자전거 로봇 UMV의 실험 결과를 공개했다. 카메라와 라이다로 지형을 파악해 길을 고르고 균형을 잡는다."
+  },
+  {
+   "title": "TechCrunch Mobility: A/B testing robots vs. humans",
+   "link": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
+   "source": "TechCrunch",
+   "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it.",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "로보틱스"
+   ],
+   "score": 2.6,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 02:06",
+   "others": [],
+   "ko": "TechCrunch 모빌리티 뉴스레터는 로봇과 사람을 비교하는 A/B 테스트를 다루며, 교통 분야에서 AI의 역할을 조명했다."
+  },
+  {
+   "title": "Ukraine revives its grounded fleet of 500+ US-made Puma drones with homegrown anti-jamming tech",
+   "link": "https://www.tomshardware.com/tech-industry/drones/ukraine-revives-its-grounded-fleet-of-500-us-made-puma-drones-with-homegrown-anti-jamming-tech-anti-jamming-upgrade-triples-range-to-31-miles",
+   "source": "Tom's Hardware",
+   "summary": "The U.S. delivered more than 500 RQ-20A Puma AE drones to Ukraine in 2023 for use in reconnaissance missions. These hand-launched uncrewed aerial vehicles (UAVs) are equipped with optical and infrared sensors for surveying the ba…",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "로보틱스"
+   ],
+   "score": 2.46,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 22:51",
+   "others": [],
+   "ko": "우크라이나가 미국산 Puma 드론 500여 대를 자체 개발한 재밍 방지 기술로 되살려 다시 운용하게 됐다는 소식이다."
+  },
+  {
+   "title": "Energy companies deploy drones that can be recharged by straddling power lines",
+   "link": "https://www.tomshardware.com/tech-industry/drones/energy-companies-deploy-drones-that-can-be-recharged-by-straddling-power-lines-nomad-quadcopter-drones-can-monitor-the-grid-without-ever-returning-home",
+   "source": "Tom's Hardware",
+   "summary": "Tech startup Nomadic showcased its NOMAD drones this week alongside an announcement that it had raised $6 million in seed funding. These quadcopter drones have a unique skill hinted at by their name: they can basically fly foreve…",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "로보틱스"
+   ],
+   "score": 2.36,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 20:30",
+   "others": [],
+   "ko": "스타트업 Nomadic의 NOMAD 드론은 송전선에 걸터앉아 충전하며 장시간 비행할 수 있다. 에너지 기업의 점검 업무에 활용될 전망이다."
+  },
+  {
+   "title": "보행로봇부터 수술실 CT까지…'CES 2027'가는 韓 헬스케어",
+   "link": "https://www.etnews.com/20261120000222",
+   "source": "전자신문",
+   "summary": "국내 헬스케어 기업들이 세계 최대 전자·정보기술(IT) 전시회 'CES 2027'에서 병원과 제약사를 겨냥한 기술을 선보인다. 수술 중 암 조직을 확인하는 소형 컴퓨터단층촬영(CT) 장비부터 인공지능(AI) 기반 의료영상 기술, 신약 임상시험 설계 소프트웨어까지 출품 분야도 다양하다. 고령자 건강관리와 재활 분야에서는 최고혁신상 수상 기업이 잇따라 나왔다. 내년 1월 6일부터 9일까지 미국 라스베이거스에서…",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "로보틱스"
+   ],
+   "score": 2.17,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 16:00",
+   "others": [],
+   "ko": "국내 헬스케어 기업들이 CES 2027에서 소형 수술실 CT, AI 의료영상, 임상시험 설계 소프트웨어 등을 선보인다. 고령자 건강관리와 재활 분야 최고혁신상 수상 소식도 나왔다."
+  },
+  {
+   "title": "J.P. Morgan Says Tesla’s Robotaxi Fleet Could Match Waymo’s Miles by Late 2027 With 18,000 Cars. The Number That Matters Is How Much Each Car Earns.",
+   "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNVTdLazhaSW1HUjBVQ3c2MmJ4d2EzMi1MeEMteXBiZ0wxdWJzbXZfVVJBQkZiR0VNWXhQOGp6bVRqZWxCdEM4VjFCLUhfRWRIdzcyR0syaE1uTEZlcDBSM3BJUjZSOTQ0RW10dE00VXRTMnBrSExvSFgzdGdkQW9sUnYzeWNuUjNESVNTM2NidnF0MWxWcUJ4aC0wNWRpQ0p3MXptbGlHSjMtOXpsT2xhRG9vRFNwUkZsLXNPTWZGZUFTWnR5NzJsU0tSX2xmaEtRdEVOaTVIXzJNal9iTXVmb25scDZlRllha2d4MW5kS1ZWaWROR2kxd29NNUhwNVVXRU9BZm9MX1V5eEtUSG1scHVoMmN6MWM?oc=5",
+   "source": "The Motley Fool",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "로보틱스"
+   ],
+   "score": 2.05,
+   "outlets": 2,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/22 22:32",
+   "others": [
+    {
+     "source": "Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVDNVLTllUW1zbkdHY0pRQktMMnJmRWRRWUVhTm1yczZyRG1RSnhhWTNEblNhcWN2ZWt5UW9iR0tVS1ZEWFluY1lxT0lKX1ZwcC1abEVwNDJnOW9wY2xzdmM2a0s2dmxiejVzeFk0QUUzRTlrN1BCdVZfMGlnR0lIRVd5UG5jM2VWY1VPWU5OYw?oc=5"
+    }
+   ],
+   "ko": "JP모건은 테슬라 로보택시 차량이 18,000대에 이르면 2027년 말 Waymo의 주행 거리를 따라잡을 수 있다고 분석했다. 핵심은 차량당 수익이라는 주장이다."
+  },
+  {
+   "title": "Optimus Will Be Tesla’s Best Product Yet, Musk Says",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kM0ZnSzRzMjh1S2haZ1l6WWJmVDl2T09qZmZDWkpUQzRrM2RoTHVXYTNfTENYem5mNERBTzJHc0dmN1JzZVFoR2hIWlcwb0dXQlZIbEZQNm9lU0tGYm5xQ0N5UE03S1NMXzBZM3lMd0NwODZC?oc=5",
+   "source": "TeslaNorth.com",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "로보틱스"
+   ],
+   "score": 2.03,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 05:14",
+   "others": [],
+   "ko": "머스크는 Optimus가 테슬라의 최고 제품이 될 것이라고 말했다. 로봇 사업에 대한 기대를 드러낸 발언이다."
+  },
+  {
+   "title": "Nvidia expands Isaac robotics platform with new humanoid and AI development tools",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQ3dVOHhUYzFCTXh2OFkyUWhSRnNuV0NyVHFyTENBYVlNZ21sU1FyR1JNQTR5UEVTS0VObEg1RVNEa2YxejdTZFBMZGk5UWFPeVhmRjdtS1ExSnJTMXlObHpfS240TFVwV29tZHdIdW9sQW44NE9vNF82UVZlaXR4QmdtRVVETjVPZkJLa29iTk12b1lrVnoyV2pXUkNpVlh0cDVjUTRxRzJ2UFJPTWNqbV9vMVpTVU1saWxrWTNHVjFRbVBxa2FoYWpyeU9tSFBxdjU5WA?oc=5",
+   "source": "Robotics & Automation News",
+   "summary": "",
+   "kind": "news",
+   "venue": "",
+   "authors": "",
+   "accepted": "",
+   "org": "",
+   "cats": [
+    "로보틱스",
+    "AI"
+   ],
+   "score": 2.02,
+   "outlets": 1,
+   "interview": false,
+   "techmeme": false,
+   "hn": null,
+   "hf": null,
+   "published": "11/23 04:59",
+   "others": [],
+   "ko": "엔비디아가 Isaac 로보틱스 플랫폼에 신규 휴머노이드 및 AI 개발 도구를 추가해 확장했다. 로봇 개발 생태계 강화가 목적이다."
+  }
+ ],
+ "tabs": {
+  "전체": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "논문": [
+   10
+  ],
+  "AI": [
+   0,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   9,
+   11,
+   12
+  ],
+  "통신·전송": [
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20
+  ],
+  "반도체·아키텍처": [
+   1,
+   9,
+   12,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27
+  ],
+  "빅테크 리더": [
+   1,
+   2,
+   7,
+   28,
+   29,
+   21,
+   30,
+   31,
+   32,
+   33
+  ],
+  "로보틱스": [
+   7,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41,
+   14
   ]
- },
- {
-  "title": "Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China",
-  "link": "https://www.ft.com/content/f3ad8a81-3890-4a8a-8853-ff0a94b08ba9",
-  "source": "Financial Times",
-  "summary": "Chinese executive in romantic relationship with former Nvidia CEO Jensen Huang had connections to the lucrative trade moving chips to China",
-  "cats": [
-   "반도체·아키텍처"
-  ],
-  "score": 4.23,
-  "outlets": 1,
-  "interview": false,
-  "techmeme": true,
-  "hn": null,
-  "published": "11/22 03:55",
-  "others": []
- },
- {
-  "title": "TechCrunch Mobility: A/B testing robots vs. humans",
-  "link": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/",
-  "source": "TechCrunch",
-  "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it.",
-  "cats": [
-   "로보틱스"
-  ],
-  "score": 3.15,
-  "outlets": 1,
-  "interview": false,
-  "techmeme": false,
-  "hn": null,
-  "published": "11/23 02:06",
-  "others": []
  }
-]
+}
