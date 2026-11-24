@@ -719,11 +719,15 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--end", help="수집 끝 시각(KST), 예: 2026-11-20T07:00")
     ap.add_argument("--dry", action="store_true", help="파일을 쓰지 않고 결과만 출력")
+    ap.add_argument("--skip-if-done", action="store_true", help="이 기간 브리핑이 이미 있으면 아무것도 하지 않음")
     args = ap.parse_args()
 
     t0 = time.time()
     start, end = collection_window(args.end)
     s_k, e_k = start.astimezone(KST), end.astimezone(KST)
+    if args.skip_if_done and (ARCHIVE / f"{e_k:%Y-%m-%d}.json").exists():
+        print(f"{e_k:%Y-%m-%d} 브리핑이 이미 있어 건너뜁니다.")
+        return
     print(f"수집 기간: {s_k:%m/%d %H:%M} ~ {e_k:%m/%d %H:%M} KST")
     items = collect(start, end)
     print(f"기간 내 항목 {len(items)}건")

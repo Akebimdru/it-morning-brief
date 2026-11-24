@@ -1,9 +1,20 @@
 name: Daily brief
 
+# GitHub 예약 실행은 정각에 몰려 몇 시간씩 밀리거나 건너뛰는 일이 있다.
+# 그래서 07:00 KST 이후 여러 시각에 시도하고, 그날 브리핑이 이미 있으면 바로 끝낸다.
 on:
   schedule:
-    - cron: "0 22 * * *"   # 매일 07:00 KST (= 22:00 UTC)
-  workflow_dispatch:        # Actions 탭에서 수동 실행 가능
+    - cron: "7 22 * * *"    # 07:07 KST
+    - cron: "23 22 * * *"   # 07:23 KST
+    - cron: "41 22 * * *"   # 07:41 KST
+    - cron: "13 23 * * *"   # 08:13 KST
+    - cron: "17 0 * * *"    # 09:17 KST
+  workflow_dispatch:        # Actions 탭에서 수동 실행 (PC 작업 스케줄러도 07:05에 이걸 호출)
+    inputs:
+      force:
+        description: "이미 만든 브리핑도 다시 생성"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -26,7 +37,7 @@ jobs:
       - name: Fetch news
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # 없으면 무료 번역으로 대체
-        run: python fetch_news.py
+        run: python fetch_news.py ${{ inputs.force && '' || '--skip-if-done' }}
       - name: Commit
         run: |
           git config user.name "brief-bot"
